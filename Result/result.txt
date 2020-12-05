@@ -1,0 +1,35 @@
+## VGG 512 batch 
+
+training timing, loss, accuracy  : 1736.7829978466034, [train] last loss : 0.2592    [test]  Average loss: 0.0043, Accuracy: 8609/10000 (86.09%)
+optimizer = torch.optim.SGD(model.parameters(), lr=1e-1, weight_decay=0.00005)
+
+
+
+## ResNet 100 batch 
+
+optimizer = torch.optim.SGD(model.parameters(), lr=0.03, weight_decay=5e-4)
+
+Time ellapsed in training is: 2180.7930991649628
+[Test set] Average loss: 0.0036, Accuracy: 9144/10000 (91.44%)
+
+
+## ResNet 512 batch 
+
+
+Epoch [100] Loss: 0.0120
+Time ellapsed in training is: 1537.0958938598633
+[Test set] Average loss: 0.0010, Accuracy: 8980/10000 (89.80%)
+
+loss_function = torch.nn.CrossEntropyLoss()
+optimizer = torch.optim.SGD(model.parameters(), lr=0.03, weight_decay=5e-4)
+model.train()
+train_loader = torch.utils.data.DataLoader(dataset=train_dataset, batch_size=512, shuffle=True)
+
+
+# ResNet 512 batch lr 0.1
+
+Time ellapsed in training is: 1536.6033515930176
+[Test set] Average loss: 0.0008, Accuracy: 9088/10000 (90.88%)
+
+loss_function = torch.nn.CrossEntropyLoss()
+optimizer = torch.optim.SGD(model.parameters(), lr=0.1, weight_decay=5e-4)
