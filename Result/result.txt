@@ -1,11 +1,11 @@
-## VGG 512 batch 
+## AlexNet 512 batch 
 
 training timing, loss, accuracy  : 1736.7829978466034, [train] last loss : 0.2592    [test]  Average loss: 0.0043, Accuracy: 8609/10000 (86.09%)
 optimizer = torch.optim.SGD(model.parameters(), lr=1e-1, weight_decay=0.00005)
 
 
 
-## ResNet 100 batch 
+## ResNet 100 batch - by professer 
 
 optimizer = torch.optim.SGD(model.parameters(), lr=0.03, weight_decay=5e-4)
 
@@ -33,3 +33,18 @@ Time ellapsed in training is: 1536.6033515930176
 
 loss_function = torch.nn.CrossEntropyLoss()
 optimizer = torch.optim.SGD(model.parameters(), lr=0.1, weight_decay=5e-4)
+
+
+
+#ResNet batch - 100 lr 0.03 - by me
+
+Time ellapsed in training is: 2273.3710601329803
+[Test set] Average loss: 0.0034, Accuracy: 9191/10000 (91.91%)
+
+
+
+
+# VGG13 basic code
+
+Time ellapsed in training is: 1895.9728999137878
+[Test set] Average loss: 0.0050, Accuracy: 8446/10000 (84.46%)
