@@ -36,10 +36,11 @@ def train(hyper_param_dict, model, device):
     else:
         optimizer = torch.optim.SGD(model.parameters(), lr=hyper_param_dict['lr'], momentum=hyper_param_dict['momentum'], 
                                 weight_decay=hyper_param_dict['weight_decay'])
+    print(optimizer, model)
 
     model.train()
-    train_loader = torch.utils.data.DataLoader(dataset=train_dataset, batch_size=hyper_param_dict['batch'], shuffle=True)
-    test_loader = torch.utils.data.DataLoader(dataset=test_dataset, batch_size=hyper_param_dict['batch'], shuffle=False)
+    train_loader = torch.utils.data.DataLoader(dataset=train_dataset, batch_size=hyper_param_dict['batch'], shuffle=True, num_workers=2)
+    test_loader = torch.utils.data.DataLoader(dataset=test_dataset, batch_size=hyper_param_dict['batch'], shuffle=False, num_workers=2)
 
     train_acc_list, test_acc_list, train_loss_list, test_loss_list = [], [], [], []
 

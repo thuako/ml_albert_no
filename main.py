@@ -41,19 +41,20 @@ if __name__ == "__main__":
     
     
     # run VGG13
-    model = models.VGG13()
-    project_name = 'VGG13'
-    model.to(device)
-    print(f'\n\n**************  start new model : {project_name} ******************')
-    utils.train(hyper_param_dict, model, device)
-    del model
+    # model = models.VGG13()
+    # project_name = 'VGG13'
+    # model.to(device)
+    # print(f'\n\n**************  start new model : {project_name} ******************')
+    # utils.train(hyper_param_dict, model, device)
+    # del model
 
     #run GoogleNet without BN
     model = models.GoogLeNet()
     model.to(device)
     project_name = 'GoogLeNet'
     hyper_param_dict['project'] = project_name
-    hyper_param_dict['lr'] = 0.1
+    hyper_param_dict['lr'] = 0.01
+    hyper_param_dict['batch'] = 256
     hyper_param_dict['epochs'] = 100
     print(f'\n\n**************  start new model : {project_name} ******************')
     utils.train(hyper_param_dict, model, device)
@@ -88,7 +89,7 @@ if __name__ == "__main__":
     del model
 
     # run ResNet50
-    model = models.ResNet34()
+    model = models.ResNet50()
     model.to(device)
     project_name = 'ResNet50'
     hyper_param_dict['project'] = project_name
