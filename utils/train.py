@@ -29,8 +29,6 @@ def train(hyper_param_dict, model, device):
                                     train=False, 
                                     transform=transforms.ToTensor())
 
-    model.to(device)
-
     loss_function = torch.nn.CrossEntropyLoss()
     if hyper_param_dict['optimizer'] == 'Adam':
         optimizer = torch.optim.Adam(model.parameters(), lr=hyper_param_dict['lr'], betas=(hyper_param_dict['beta1'], hyper_param_dict['beta2']), 

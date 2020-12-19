@@ -6,8 +6,7 @@ from torchvision import datasets
 from torchvision.transforms import transforms
 import torch.nn.functional as F
 
-
-class GoogLeNet_w_bn(nn.Module):
+class GoogLeNet(nn.Module):
 
     def __init__(self):
         super(GoogLeNet, self).__init__()        
