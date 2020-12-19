@@ -15,28 +15,26 @@ import matplotlib.pyplot as plt
 import utils
 import models
 
-
-
-#hyper parameter 
-
-
-
-
-#start training
-
 if __name__ == "__main__":
     hyper_param_dict = { 
+                'root dir': './Result/multiStep/',
                 'project' : 'VGG13',
                 'data root' : './Datasets/cifar10',
-                'epochs' : 200,
-                'batch' : 256, 
+                'epochs' : 5,
+                'batch' : 256,
                 'lr' : 0.05,
+                'lr scheduler': 'multi step', # 'multi step', 'step lr', 'cos warm up'
+                'step size': 10, # for step lr
+                'milestones': [25, 50, 75], # for multi step
+                'cycle' : 15, # for cos warm up
                 'optimizer': 'SGD',
                 'momentum' : 0.9,   
                 'beta1' : 0.9,
                 'beta2' : 0.999, 
                 'weight_decay' : 5e-4
                 }
+
+
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     
     
@@ -44,11 +42,7 @@ if __name__ == "__main__":
     model = models.VGG13()
     project_name = 'VGG13'
     model.to(device)
-<<<<<<< HEAD
-    # print(f'\n\n**************  start new model : {hyper_param_dict['project']} ******************')
-=======
     print(f'\n\n**************  start new model : {project_name} ******************')
->>>>>>> 725460435ba843e924a97e5d58183c23664243ed
     utils.train(hyper_param_dict, model, device)
     del model
 
@@ -57,27 +51,20 @@ if __name__ == "__main__":
     model.to(device)
     project_name = 'GoogLeNet'
     hyper_param_dict['project'] = project_name
-    hyper_param_dict['lr'] = 0.1
+    hyper_param_dict['lr'] = 0.05
+    hyper_param_dict['batch'] = 200
     hyper_param_dict['epochs'] = 100
-<<<<<<< HEAD
-    # print(f'\n\n**************  start new model : {hyper_param_dict['project']} ******************')
-=======
     print(f'\n\n**************  start new model : {project_name} ******************')
->>>>>>> 725460435ba843e924a97e5d58183c23664243ed
     utils.train(hyper_param_dict, model, device)
     del model
     
     #run GoogleNet with BN
     model = models.GoogLeNet_w_bn()
     model.to(device)
-<<<<<<< HEAD
-    hyper_param_dict['project'] = 'GoogLeNet_w_bn'
-    # print(f'\n\n**************  start new model : {hyper_param_dict['project']} ******************')
-=======
     project_name = 'GoogLeNet_w_bn'
     hyper_param_dict['project'] = project_name
+    hyper_param_dict['lr'] = 0.01
     print(f'\n\n**************  start new model : {project_name} ******************')
->>>>>>> 725460435ba843e924a97e5d58183c23664243ed
     utils.train(hyper_param_dict, model, device)
     del model
 
@@ -85,43 +72,29 @@ if __name__ == "__main__":
     model = models.ResNet18()
     model.to(device)
     project_name = 'ResNet18'
-    hyper_param_dict['project'] = project_name
+    hyper_param_dict['project'] = project_name  
     hyper_param_dict['lr'] = 0.03
-<<<<<<< HEAD
-    # print(f'\n\n**************  start new model : {hyper_param_dict['project']} ******************')
-=======
     print(f'\n\n**************  start new model : {project_name} ******************')
->>>>>>> 725460435ba843e924a97e5d58183c23664243ed
     utils.train(hyper_param_dict, model, device)
     del model
 
     # run ResNet34
     model = models.ResNet34()
     model.to(device)
-<<<<<<< HEAD
-    hyper_param_dict['project'] = 'ResNet34'
-    # print(f'\n\n**************  start new model : {hyper_param_dict['project']} ******************')
-=======
     project_name = 'ResNet34'
     hyper_param_dict['project'] = project_name
     print(f'\n\n**************  start new model : {project_name} ******************')
->>>>>>> 725460435ba843e924a97e5d58183c23664243ed
     utils.train(hyper_param_dict, model, device)
     del model
 
     # run ResNet50
-    model = models.ResNet34()
-    model.to(device)
-<<<<<<< HEAD
-    hyper_param_dict['project'] = 'ResNet50'
-    # print(f'\n\n**************  start new model : {hyper_param_dict['project']} ******************')
-=======
-    project_name = 'ResNet50'
-    hyper_param_dict['project'] = project_name
-    print(f'\n\n**************  start new model : {project_name} ******************')
->>>>>>> 725460435ba843e924a97e5d58183c23664243ed
-    utils.train(hyper_param_dict, model, device)
-    del model
+    # model = models.ResNet50()
+    # model.to(device)
+    # project_name = 'ResNet50'
+    # hyper_param_dict['project'] = project_name
+    # print(f'\n\n**************  start new model : {project_name} ******************')
+    # utils.train(hyper_param_dict, model, device)
+    # del model
 
 
 
