@@ -38,12 +38,15 @@ def train(hyper_param_dict, model, device):
                                 weight_decay=hyper_param_dict['weight_decay'])
 
     model.train()
-    train_loader = torch.utils.data.DataLoader(dataset=train_dataset, batch_size=hyper_param_dict['batch'], shuffle=True)
-    test_loader = torch.utils.data.DataLoader(dataset=test_dataset, batch_size=hyper_param_dict['batch'], shuffle=False)
+    train_loader = torch.utils.data.DataLoader(dataset=train_dataset, batch_size=hyper_param_dict['batch'], shuffle=True, num_workers= 2)
+    test_loader = torch.utils.data.DataLoader(dataset=test_dataset, batch_size=hyper_param_dict['batch'], shuffle=False, num_workers= 2)
+
+
+
+
+
 
     train_acc_list, test_acc_list, train_loss_list, test_loss_list = [], [], [], []
-
-    
     start = time.time()
     for epoch in range(hyper_param_dict['epochs']) :
             # start training
@@ -129,3 +132,20 @@ def train(hyper_param_dict, model, device):
 
     with open( save_dir + '/hyper.pickle','wb') as fw:
         pickle.dump(hyper_param_dict, fw)
+
+
+
+
+
+def lr_schedulr(hyper_param_dict, optimizer):
+
+    if hyper_param_dict['lr schedulr'] == 'step lr':
+        return optim.lr_scheduler.StepLR(optimizer=optimizer, step_size=5, gamma=0.5)
+
+    if hyper_param_dict['lr schedulr'] == 'multi step':
+        return torch.optim.lr_scheduler.MultiStepLR(optimizer, hyper_param_dict['milestones'] , gamma=0.1, last_epoch=-1, verbose=False)
+    
+    if hyper_param_dict['lr schedulr'] == 'cos warm up':
+
+
+
