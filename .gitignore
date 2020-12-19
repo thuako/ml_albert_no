@@ -3,3 +3,4 @@
 Datasets/
 ./Datasets/
 cifar_10data/
+*.pt
