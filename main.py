@@ -22,7 +22,7 @@ if __name__ == "__main__":
                 'data root' : './Datasets/cifar10',
                 'epochs' : 200,
                 'batch' : 256,
-                'lr' : 0.05,
+                'lr' : 0.8,
                 'lr scheduler': 'multi step', # 'multi step', 'step lr', 'cos warm up'
                 'step size': 10, # for step lr
                 'milestones': [25, 50, 75], # for multi step
@@ -47,16 +47,16 @@ if __name__ == "__main__":
     del model
 
     #run GoogleNet without BN
-    # model = models.GoogLeNet()
-    # model.to(device)
-    # project_name = 'GoogLeNet'
-    # hyper_param_dict['project'] = project_name
-    # hyper_param_dict['lr'] = 0.05
-    # hyper_param_dict['batch'] = 200
-    # hyper_param_dict['epochs'] = 100
-    # print(f'\n\n**************  start new model : {project_name} ******************')
-    # utils.train(hyper_param_dict, model, device)
-    # del model
+    model = models.GoogLeNet()
+    model.to(device)
+    project_name = 'GoogLeNet'
+    hyper_param_dict['project'] = project_name
+    hyper_param_dict['lr'] = 0.05
+    hyper_param_dict['batch'] = 200
+    hyper_param_dict['epochs'] = 100
+    print(f'\n\n**************  start new model : {project_name} ******************')
+    utils.train(hyper_param_dict, model, device)
+    del model
     
     #run GoogleNet with BN
     model = models.GoogLeNet_w_bn()
@@ -77,6 +77,7 @@ if __name__ == "__main__":
     hyper_param_dict['project'] = project_name  
     hyper_param_dict['batch'] = 256
     hyper_param_dict['lr'] = 0.03
+    hyper_param_dict['batch'] = 256
     print(f'\n\n**************  start new model : {project_name} ******************')
     utils.train(hyper_param_dict, model, device)
     del model
