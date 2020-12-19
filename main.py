@@ -17,12 +17,12 @@ import models
 
 if __name__ == "__main__":
     hyper_param_dict = { 
-                'root dir': './Result/multiStep/',
+                'root dir': './Result_v2/multiStep/',
                 'project' : 'VGG13',
                 'data root' : './Datasets/cifar10',
-                'epochs' : 5,
+                'epochs' : 200,
                 'batch' : 256,
-                'lr' : 0.05,
+                'lr' : 0.1,
                 'lr scheduler': 'multi step', # 'multi step', 'step lr', 'cos warm up'
                 'step size': 10, # for step lr
                 'milestones': [25, 50, 75], # for multi step
@@ -63,7 +63,8 @@ if __name__ == "__main__":
     model.to(device)
     project_name = 'GoogLeNet_w_bn'
     hyper_param_dict['project'] = project_name
-    hyper_param_dict['lr'] = 0.01
+    hyper_param_dict['batch'] = 200
+    hyper_param_dict['lr'] = 0.05
     print(f'\n\n**************  start new model : {project_name} ******************')
     utils.train(hyper_param_dict, model, device)
     del model
@@ -72,8 +73,9 @@ if __name__ == "__main__":
     model = models.ResNet18()
     model.to(device)
     project_name = 'ResNet18'
-    hyper_param_dict['project'] = project_name  
+    hyper_param_dict['project'] = project_name
     hyper_param_dict['lr'] = 0.03
+    hyper_param_dict['batch'] = 256
     print(f'\n\n**************  start new model : {project_name} ******************')
     utils.train(hyper_param_dict, model, device)
     del model

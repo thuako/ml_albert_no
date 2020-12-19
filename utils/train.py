@@ -107,14 +107,14 @@ def train(hyper_param_dict, model, device):
                             test_correct += pred.eq(labels.view_as(pred)).sum().item()
 
                             test_total += labels.size(0)
-            test_acc = 100. * correct / total
+            test_acc = 100. * test_correct / test_total
 
             print('[Test set] Average loss: {:.4f}, Accuracy: {}/{} ({:.2f}%)\n'.format(
                     test_loss /test_total, test_correct, test_total,
                     test_acc))
             #save test result
-            test_loss_list.append(test_loss / total)
-            test_acc_list.append(correct / total * 100.)
+            test_loss_list.append(test_loss / test_total)
+            test_acc_list.append(test_correct / test_total * 100.)
 
             #save best model
             if best < test_acc:
