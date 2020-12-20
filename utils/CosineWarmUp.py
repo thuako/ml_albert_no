@@ -42,8 +42,11 @@ class CosineAnnealingWarmRestarts(_LRScheduler):
         self.base_lr = eta_max
         self.gamma = gamma
         self.base_min = base_min
-
-        super(CosineAnnealingWarmRestarts, self).__init__(optimizer, last_epoch, verbose)
+        print(optimizer)
+        print(last_epoch)
+        print(verbose)
+        # super(CosineAnnealingWarmRestarts, self).__init__(optimizer, last_epoch, verbose)
+        super(CosineAnnealingWarmRestarts, self).__init__(optimizer, last_epoch)
 
         self.T_cur = self.last_epoch
 

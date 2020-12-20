@@ -1,0 +1,22 @@
+
+
+**************  start new model : ResNet18_PReLU ******************
+Files already downloaded and verified
+Traceback (most recent call last):
+  File "main_1.py", line 97, in <module>
+    utils.train(hyper_param_dict, model, device)
+  File "/home/tjrgh/Project/ML_albert_no/utils/train.py", line 29, in train
+    download=True)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/datasets/cifar.py", line 60, in __init__
+    if not self._check_integrity():
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/datasets/cifar.py", line 128, in _check_integrity
+    if not check_integrity(fpath, md5):
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/datasets/utils.py", line 42, in check_integrity
+    return check_md5(fpath, md5)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/datasets/utils.py", line 34, in check_md5
+    return md5 == calculate_md5(fpath, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/datasets/utils.py", line 28, in calculate_md5
+    for chunk in iter(lambda: f.read(chunk_size), b''):
+  File "/opt/conda/lib/python3.7/site-packages/torchvision/datasets/utils.py", line 28, in <lambda>
+    for chunk in iter(lambda: f.read(chunk_size), b''):
+KeyboardInterrupt

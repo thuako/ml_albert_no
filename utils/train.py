@@ -42,8 +42,8 @@ def train(hyper_param_dict, model, device):
     scheduler = lr_scheduler(hyper_param_dict, optimizer)
 
     model.train()
-    train_loader = torch.utils.data.DataLoader(dataset=train_dataset, batch_size=hyper_param_dict['batch'], shuffle=True, num_workers= 2)
-    test_loader = torch.utils.data.DataLoader(dataset=test_dataset, batch_size=hyper_param_dict['batch'], shuffle=False, num_workers= 2)
+    train_loader = torch.utils.data.DataLoader(dataset=train_dataset, batch_size=hyper_param_dict['batch'], shuffle=True, num_workers= 3)
+    test_loader = torch.utils.data.DataLoader(dataset=test_dataset, batch_size=hyper_param_dict['batch'], shuffle=False, num_workers= 3)
     
     iters = len(train_loader)
     train_epoch = hyper_param_dict['epochs']

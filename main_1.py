@@ -19,7 +19,7 @@ hyper_param_dict = {
             'root dir': './Result_v3/CosWarmUp',
             'project' : 'VGG13',
             'data root' : './Datasets/cifar10',
-            'epochs' : 200,
+            'epochs' : 150,
             'batch' : 256,
             'lr' : 0.05,
             'lr scheduler': 'cos warm up', # 'multi step', 'step lr', 'cos warm up'
@@ -27,66 +27,99 @@ hyper_param_dict = {
             'milestones': [25, 50, 75], # for multi step
             'cycle' : 30, # for cos warm up
             'base min lr' : 0.0001,
-            'gamma' : 0.5,
+            'gamma' : 0.6,
             'optimizer': 'SGD',
             'momentum' : 0.9,   
             'beta1' : 0.9,
             'beta2' : 0.999, 
             'weight_decay' : 5e-4
             }
-device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 
 # run VGG13
-model = models.VGG13()
-project_name = 'VGG13'
-model.to(device)
-print(f'\n\n**************  start new model : {project_name} ******************')
-utils.train(hyper_param_dict, model, device)
-del model
+#model = models.VGG13()
+#project_name = 'VGG13'
+#model.to(device)
+#print(f'\n\n**************  start new model : {project_name} ******************')
+#utils.train(hyper_param_dict, model, device)
+# del model
+
+#model = models.VGG13()
+#project_name = 'VGG13'
+#hyper_param_dict['cycle'] = 30
+#hyper_param_dict['gamma'] = 0.6
+#model.to(device)
+#print(f'\n\n**************  start new model : {project_name} ******************')
+#utils.train(hyper_param_dict, model, device)
+#del model
+
+#model = models.VGG13()
+#project_name = 'VGG13'
+#hyper_param_dict['cycle'] = 10
+#hyper_param_dict['gamma'] = 0.8
+#model.to(device)
+#print(f'\n\n**************  start new model : {project_name} ******************')
+#utils.train(hyper_param_dict, model, device)
+#del model
 
 #run GoogleNet without BN
-model = models.GoogLeNet()
+# model = models.GoogLeNet()
+# model.to(device)
+# project_name = 'GoogLeNet'
+# hyper_param_dict['project'] = project_name
+# hyper_param_dict['cycle'] = 15
+# hyper_param_dict['lr'] = 0.05
+# hyper_param_dict['batch'] = 200
+# hyper_param_dict['epochs'] = 100
+# print(f'\n\n**************  start new model : {project_name} ******************')
+# utils.train(hyper_param_dict, model, device)
+# del model
+
+# #run GoogleNet with BN
+# model = models.GoogLeNet_w_bn()
+# model.to(device)
+# project_name = 'GoogLeNet_w_bn'
+# hyper_param_dict['project'] = project_name
+# hyper_param_dict['lr'] = 0.05
+# print(f'\n\n**************  start new model : {project_name} ******************')
+# utils.train(hyper_param_dict, model, device)
+# del model
+
+
+model = models.ResNet_PReLU_18()
 model.to(device)
-project_name = 'GoogLeNet'
-hyper_param_dict['project'] = project_name
-hyper_param_dict['cycle'] = 15
-hyper_param_dict['lr'] = 0.05
-hyper_param_dict['batch'] = 200
-hyper_param_dict['epochs'] = 100
+project_name = 'ResNet18_PReLU'
+hyper_param_dict['project'] = project_name  
+hyper_param_dict['lr'] = 0.03
+hyper_param_dict['batch'] = 256
+hyper_param_dict['weight_decay'] = 5e-5
 print(f'\n\n**************  start new model : {project_name} ******************')
 utils.train(hyper_param_dict, model, device)
 del model
 
-#run GoogleNet with BN
-model = models.GoogLeNet_w_bn()
-model.to(device)
-project_name = 'GoogLeNet_w_bn'
-hyper_param_dict['project'] = project_name
-hyper_param_dict['lr'] = 0.05
-print(f'\n\n**************  start new model : {project_name} ******************')
-utils.train(hyper_param_dict, model, device)
-del model
-
-# run ResNet18
+# # run ResNet18
 model = models.ResNet18()
 model.to(device)
 project_name = 'ResNet18'
 hyper_param_dict['project'] = project_name  
 hyper_param_dict['lr'] = 0.03
 hyper_param_dict['batch'] = 256
+hyper_param_dict['weight_decay'] = 5e-4
 print(f'\n\n**************  start new model : {project_name} ******************')
 utils.train(hyper_param_dict, model, device)
 del model
 
-# run ResNet34
-model = models.ResNet34()
-model.to(device)
-project_name = 'ResNet34'
-hyper_param_dict['project'] = project_name
-print(f'\n\n**************  start new model : {project_name} ******************')
-utils.train(hyper_param_dict, model, device)
-del model
+
+
+# # run ResNet34
+# model = models.ResNet34()
+# model.to(device)
+# project_name = 'ResNet34'
+# hyper_param_dict['project'] = project_name
+# print(f'\n\n**************  start new model : {project_name} ******************')
+# utils.train(hyper_param_dict, model, device)
+# del model
 
 # run ResNet50
 # model = models.ResNet50()
