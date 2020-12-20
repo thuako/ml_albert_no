@@ -113,7 +113,7 @@ class VGG13_v1(nn.Module) :
                 nn.BatchNorm2d(256),
                 nn.ReLU(),
                 nn.Conv2d(256, 256, kernel_size=3, padding=1),  # 256 * 8 * 8
-                nn.BatchNorm2d(256)
+                nn.BatchNorm2d(256),
                 nn.ReLU(),
                 nn.MaxPool2d(kernel_size=2, stride=2)           # 256 * 4 * 4
                 )
@@ -123,7 +123,7 @@ class VGG13_v1(nn.Module) :
                 nn.ReLU(),
                 VGG_Conv2d_Drop(),
                 nn.Conv2d(512, 512, kernel_size=3, padding=1),  # 512 * 4 * 4
-                nn.BatchNorm2d(512)
+                nn.BatchNorm2d(512),
                 nn.ReLU(),
                 nn.Conv2d(512, 512, kernel_size=3, padding=1),  # 512 * 4 * 4
                 nn.BatchNorm2d(512),

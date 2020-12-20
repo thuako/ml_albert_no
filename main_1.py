@@ -16,7 +16,7 @@ import utils
 import models
 
 hyper_param_dict = { 
-            'root dir': './Result_v2/CosWarmUp',
+            'root dir': './Result_v3/CosWarmUp',
             'project' : 'VGG13',
             'data root' : './Datasets/cifar10',
             'epochs' : 200,
@@ -25,7 +25,9 @@ hyper_param_dict = {
             'lr scheduler': 'cos warm up', # 'multi step', 'step lr', 'cos warm up'
             'step size': 10, # for step lr
             'milestones': [25, 50, 75], # for multi step
-            'cycle' : 15, # for cos warm up
+            'cycle' : 30, # for cos warm up
+            'base min lr' : 0.0001,
+            'gamma' : 0.5,
             'optimizer': 'SGD',
             'momentum' : 0.9,   
             'beta1' : 0.9,
@@ -48,6 +50,7 @@ model = models.GoogLeNet()
 model.to(device)
 project_name = 'GoogLeNet'
 hyper_param_dict['project'] = project_name
+hyper_param_dict['cycle'] = 15
 hyper_param_dict['lr'] = 0.05
 hyper_param_dict['batch'] = 200
 hyper_param_dict['epochs'] = 100

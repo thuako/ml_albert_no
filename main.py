@@ -17,7 +17,7 @@ import models
 
 if __name__ == "__main__":
     hyper_param_dict = { 
-                'root dir': './Result_GCP/Original/',
+                'root dir': './Result_v3/multi/',
                 'project' : 'VGG13',
                 'data root' : './Datasets/cifar10',
                 'epochs' : 200,
@@ -39,24 +39,24 @@ if __name__ == "__main__":
     
     
     # run VGG13
-    # model = models.VGG13()
-    # project_name = 'VGG13'
-    # model.to(device)
-    # print(f'\n\n**************  start new model : {project_name} ******************')
-    # utils.train(hyper_param_dict, model, device)
-    # del model
-
-    #run GoogleNet without BN
-    model = models.GoogLeNet()
+    model = models.VGG13()
+    project_name = 'VGG13'
     model.to(device)
-    project_name = 'GoogLeNet'
-    hyper_param_dict['project'] = project_name
-    hyper_param_dict['lr'] = 0.05
-    hyper_param_dict['batch'] = 200
-    hyper_param_dict['epochs'] = 100
     print(f'\n\n**************  start new model : {project_name} ******************')
     utils.train(hyper_param_dict, model, device)
     del model
+
+    #run GoogleNet without BN
+    # model = models.GoogLeNet()
+    # model.to(device)
+    # project_name = 'GoogLeNet'
+    # hyper_param_dict['project'] = project_name
+    # hyper_param_dict['lr'] = 0.05
+    # hyper_param_dict['batch'] = 200
+    # hyper_param_dict['epochs'] = 100
+    # print(f'\n\n**************  start new model : {project_name} ******************')
+    # utils.train(hyper_param_dict, model, device)
+    # del model
     
     #run GoogleNet with BN
     model = models.GoogLeNet_w_bn()

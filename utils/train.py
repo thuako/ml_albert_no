@@ -11,6 +11,9 @@ import pickle
 import os
 import time
 
+from utils.CosineWarmUp import CosineAnnealingWarmRestarts
+
+
 
 def train(hyper_param_dict, model, device):    
 
@@ -36,7 +39,7 @@ def train(hyper_param_dict, model, device):
     else:
         optimizer = torch.optim.SGD(model.parameters(), lr=hyper_param_dict['lr'], momentum=hyper_param_dict['momentum'], 
                                 weight_decay=hyper_param_dict['weight_decay'])
-    # schedulr = lr_scheduler(hyper_param_dict, optimizer)
+    scheduler = lr_scheduler(hyper_param_dict, optimizer)
 
     model.train()
     train_loader = torch.utils.data.DataLoader(dataset=train_dataset, batch_size=hyper_param_dict['batch'], shuffle=True, num_workers= 2)
@@ -75,22 +78,30 @@ def train(hyper_param_dict, model, device):
             train_loss, train_acc, total, correct = 0, 0, 0, 0
 
             train_start = time.time()
+            
             for i, (images, labels) in enumerate(train_loader) :
-                    images, labels = images.to(device), labels.to(device)
+                images, labels = images.to(device), labels.to(device)
 
-                    optimizer.zero_grad()
-                    output = model(images)
-                    train_loss = loss_function(output, labels)
-                    train_loss.backward()
-                    optimizer.step()
-                    pred = output.max(1, keepdim=True)[1]
-                    correct += pred.eq(labels.view_as(pred)).sum().item()
-                    total += labels.size(0)
+                optimizer.zero_grad()
+                output = model(images)
+                train_loss = loss_function(output, labels)
+                train_loss.backward()
+                optimizer.step()
+
+                if hyper_param_dict['lr scheduler'] == 'cos warm up':
+                    lr_step = epoch + i / iters
+                    scheduler.step(epoch=lr_step)
+                pred = output.max(1, keepdim=True)[1]
+                correct += pred.eq(labels.view_as(pred)).sum().item()
+                total += labels.size(0)
+            scheduler.step()
+            
             train_end = time.time()
 
             train_acc = correct / total * 100.
-
-            print ("\nEpoch [{}]\n[Train set] Loss: {:.4f}, Accuracy: {}/{} ({:.2f}%)  Epoch time : {:.4f}".format(epoch+1, train_loss.item(), correct, total, train_acc, train_end - train_start))
+            # print(scheduler.get_lr()[0])
+            print ("\nEpoch [{}]\n[Train set] Loss: {:.4f}, Accuracy: {}/{} ({:.2f}%)  Epoch time : {:.4f} ".format(epoch+1, train_loss.item(), correct, total, train_acc, train_end - train_start), end='')
+            print(f"   LR : {scheduler.get_last_lr()[0]:.4f}")
             #save train result
             train_loss_list.append(train_loss / total)
             train_acc_list.append(train_acc)
@@ -99,16 +110,16 @@ def train(hyper_param_dict, model, device):
             model.eval()    
             test_loss, test_correct, test_total = 0, 0, 0
             with torch.no_grad():
-                    for images, labels in test_loader :
-                            images, labels = images.to(device), labels.to(device)
+                for images, labels in test_loader :
+                        images, labels = images.to(device), labels.to(device)
 
-                            output = model(images)
-                            test_loss += loss_function(output, labels).item()
+                        output = model(images)
+                        test_loss += loss_function(output, labels).item()
 
-                            pred = output.max(1, keepdim=True)[1]
-                            test_correct += pred.eq(labels.view_as(pred)).sum().item()
+                        pred = output.max(1, keepdim=True)[1]
+                        test_correct += pred.eq(labels.view_as(pred)).sum().item()
 
-                            test_total += labels.size(0)
+                        test_total += labels.size(0)
             test_acc = 100. * test_correct / test_total
 
             print('[Test set] Average loss: {:.4f}, Accuracy: {}/{} ({:.2f}%)'.format(
@@ -155,12 +166,15 @@ def train(hyper_param_dict, model, device):
 def lr_scheduler(hyper_param_dict, optimizer):
 
     if hyper_param_dict['lr scheduler'] == 'step lr':
-        return optim.lr_scheduler.StepLR(optimizer, step_size=hyper_param_dict['step size'], gamma=0.5)
+        return torch.optim.lr_scheduler.StepLR(optimizer, step_size=hyper_param_dict['step size'], gamma=0.5)
 
     if hyper_param_dict['lr scheduler'] == 'multi step':
-        return torch.optim.lr_scheduler.MultiStepLR(optimizer, hyper_param_dict['milestones'] , gamma=0.1, last_epoch=-1, verbose=True)
+        return torch.optim.lr_scheduler.MultiStepLR(optimizer, hyper_param_dict['milestones'] , gamma=0.1, last_epoch=-1)
     
     if hyper_param_dict['lr scheduler'] == 'cos warm up':
-        return torch.optim.lr_scheduler.CosineAnnealingWarmRestarts(optimizer, 1, T_mult=hyper_param_dict['cycle'] , eta_min=0.000001, last_epoch=-1, verbose=True)
+        #return torch.optim.lr_scheduler.CosineAnnealingWarmRestarts(optimizer, T_0 = hyper_param_dict['cycle'], T_mult=1, gamma=0.5, eta_min=hyper_param_dict['lr'])
+        return CosineAnnealingWarmRestarts(optimizer, T_0 = hyper_param_dict['cycle'], T_mult=1, gamma = hyper_param_dict['gamma'], eta_max= hyper_param_dict['lr'], base_min=hyper_param_dict['base min lr'])
+
+
 
 
