@@ -339,3 +339,970 @@ Epoch [74]
 Epoch [75]
 [Train set] Loss: 0.0018, Accuracy: 49955/50000 (99.91%)  Epoch time : 18.0714    LR : 0.0048
 [Test set] Average loss: 0.0022, Accuracy: 9131/10000 (91.31%)
+
+Epoch [76]
+[Train set] Loss: 0.0012, Accuracy: 49964/50000 (99.93%)  Epoch time : 18.0193    LR : 0.0043
+[Test set] Average loss: 0.0022, Accuracy: 9157/10000 (91.57%)
+
+Epoch [77]
+[Train set] Loss: 0.0024, Accuracy: 49963/50000 (99.93%)  Epoch time : 18.0696    LR : 0.0037
+[Test set] Average loss: 0.0021, Accuracy: 9155/10000 (91.55%)
+
+Epoch [78]
+[Train set] Loss: 0.0009, Accuracy: 49974/50000 (99.95%)  Epoch time : 18.0559    LR : 0.0032
+[Test set] Average loss: 0.0021, Accuracy: 9165/10000 (91.65%)
+
+Epoch [79]
+[Train set] Loss: 0.0002, Accuracy: 49963/50000 (99.93%)  Epoch time : 18.1374    LR : 0.0027
+[Test set] Average loss: 0.0022, Accuracy: 9153/10000 (91.53%)
+
+Epoch [80]
+[Train set] Loss: 0.0002, Accuracy: 49976/50000 (99.95%)  Epoch time : 18.1225    LR : 0.0022
+[Test set] Average loss: 0.0021, Accuracy: 9163/10000 (91.63%)
+
+Epoch [81]
+[Train set] Loss: 0.0012, Accuracy: 49983/50000 (99.97%)  Epoch time : 18.0791    LR : 0.0018
+[Test set] Average loss: 0.0021, Accuracy: 9145/10000 (91.45%)
+
+Epoch [82]
+[Train set] Loss: 0.0036, Accuracy: 49976/50000 (99.95%)  Epoch time : 18.0814    LR : 0.0014
+[Test set] Average loss: 0.0022, Accuracy: 9160/10000 (91.60%)
+
+Epoch [83]
+[Train set] Loss: 0.0035, Accuracy: 49987/50000 (99.97%)  Epoch time : 18.0137    LR : 0.0010
+[Test set] Average loss: 0.0022, Accuracy: 9155/10000 (91.55%)
+
+Epoch [84]
+[Train set] Loss: 0.0001, Accuracy: 49983/50000 (99.97%)  Epoch time : 18.0660    LR : 0.0007
+[Test set] Average loss: 0.0022, Accuracy: 9163/10000 (91.63%)
+
+Epoch [85]
+[Train set] Loss: 0.0005, Accuracy: 49980/50000 (99.96%)  Epoch time : 18.0285    LR : 0.0005
+[Test set] Average loss: 0.0022, Accuracy: 9166/10000 (91.66%)
+
+Epoch [86]
+[Train set] Loss: 0.0002, Accuracy: 49982/50000 (99.96%)  Epoch time : 18.0206    LR : 0.0003
+[Test set] Average loss: 0.0022, Accuracy: 9168/10000 (91.68%)
+save by ./Result_v3/CosWarmUp/ResNet18_PReLU/20_14_31/ResNet18_PReLU_best.pt
+
+Epoch [87]
+[Train set] Loss: 0.0127, Accuracy: 49982/50000 (99.96%)  Epoch time : 18.0160    LR : 0.0001
+[Test set] Average loss: 0.0022, Accuracy: 9160/10000 (91.60%)
+
+Epoch [88]
+[Train set] Loss: 0.0076, Accuracy: 49992/50000 (99.98%)  Epoch time : 18.0407    LR : 0.0000
+[Test set] Average loss: 0.0022, Accuracy: 9158/10000 (91.58%)
+
+Epoch [89]
+[Train set] Loss: 0.0006, Accuracy: 49989/50000 (99.98%)  Epoch time : 18.0126    LR : 0.0000
+[Test set] Average loss: 0.0022, Accuracy: 9167/10000 (91.67%)
+
+Epoch [90]
+[Train set] Loss: 0.0035, Accuracy: 49983/50000 (99.97%)  Epoch time : 17.9753    LR : 0.0065
+[Test set] Average loss: 0.0022, Accuracy: 9168/10000 (91.68%)
+
+Epoch [91]
+[Train set] Loss: 0.0010, Accuracy: 49971/50000 (99.94%)  Epoch time : 18.0555    LR : 0.0064
+[Test set] Average loss: 0.0022, Accuracy: 9151/10000 (91.51%)
+
+Epoch [92]
+[Train set] Loss: 0.0041, Accuracy: 49974/50000 (99.95%)  Epoch time : 18.0161    LR : 0.0063
+[Test set] Average loss: 0.0023, Accuracy: 9136/10000 (91.36%)
+
+Epoch [93]
+[Train set] Loss: 0.0004, Accuracy: 49983/50000 (99.97%)  Epoch time : 18.0431    LR : 0.0062
+[Test set] Average loss: 0.0023, Accuracy: 9163/10000 (91.63%)
+
+Epoch [94]
+[Train set] Loss: 0.0001, Accuracy: 49972/50000 (99.94%)  Epoch time : 18.0575    LR : 0.0060
+[Test set] Average loss: 0.0024, Accuracy: 9153/10000 (91.53%)
+
+Epoch [95]
+[Train set] Loss: 0.0010, Accuracy: 49975/50000 (99.95%)  Epoch time : 18.1107    LR : 0.0059
+[Test set] Average loss: 0.0023, Accuracy: 9167/10000 (91.67%)
+
+Epoch [96]
+[Train set] Loss: 0.0005, Accuracy: 49984/50000 (99.97%)  Epoch time : 18.0869    LR : 0.0056
+[Test set] Average loss: 0.0023, Accuracy: 9160/10000 (91.60%)
+
+Epoch [97]
+[Train set] Loss: 0.0012, Accuracy: 49987/50000 (99.97%)  Epoch time : 17.9926    LR : 0.0054
+[Test set] Average loss: 0.0023, Accuracy: 9172/10000 (91.72%)
+save by ./Result_v3/CosWarmUp/ResNet18_PReLU/20_14_31/ResNet18_PReLU_best.pt
+
+Epoch [98]
+[Train set] Loss: 0.0041, Accuracy: 49979/50000 (99.96%)  Epoch time : 18.0957    LR : 0.0051
+[Test set] Average loss: 0.0023, Accuracy: 9146/10000 (91.46%)
+
+Epoch [99]
+[Train set] Loss: 0.0001, Accuracy: 49980/50000 (99.96%)  Epoch time : 17.9827    LR : 0.0049
+[Test set] Average loss: 0.0023, Accuracy: 9158/10000 (91.58%)
+
+Epoch [100]
+[Train set] Loss: 0.0007, Accuracy: 49981/50000 (99.96%)  Epoch time : 18.0433    LR : 0.0046
+[Test set] Average loss: 0.0024, Accuracy: 9157/10000 (91.57%)
+
+Epoch [101]
+[Train set] Loss: 0.0002, Accuracy: 49989/50000 (99.98%)  Epoch time : 18.0608    LR : 0.0042
+[Test set] Average loss: 0.0023, Accuracy: 9161/10000 (91.61%)
+
+Epoch [102]
+[Train set] Loss: 0.0002, Accuracy: 49985/50000 (99.97%)  Epoch time : 18.0265    LR : 0.0039
+[Test set] Average loss: 0.0023, Accuracy: 9165/10000 (91.65%)
+
+Epoch [103]
+[Train set] Loss: 0.0015, Accuracy: 49982/50000 (99.96%)  Epoch time : 18.0156    LR : 0.0036
+[Test set] Average loss: 0.0023, Accuracy: 9174/10000 (91.74%)
+save by ./Result_v3/CosWarmUp/ResNet18_PReLU/20_14_31/ResNet18_PReLU_best.pt
+
+Epoch [104]
+[Train set] Loss: 0.0003, Accuracy: 49990/50000 (99.98%)  Epoch time : 18.0679    LR : 0.0032
+[Test set] Average loss: 0.0023, Accuracy: 9175/10000 (91.75%)
+save by ./Result_v3/CosWarmUp/ResNet18_PReLU/20_14_31/ResNet18_PReLU_best.pt
+
+Epoch [105]
+[Train set] Loss: 0.0000, Accuracy: 49989/50000 (99.98%)  Epoch time : 18.0496    LR : 0.0029
+[Test set] Average loss: 0.0023, Accuracy: 9171/10000 (91.71%)
+
+Epoch [106]
+[Train set] Loss: 0.0078, Accuracy: 49984/50000 (99.97%)  Epoch time : 17.9993    LR : 0.0026
+[Test set] Average loss: 0.0023, Accuracy: 9170/10000 (91.70%)
+
+Epoch [107]
+[Train set] Loss: 0.0082, Accuracy: 49992/50000 (99.98%)  Epoch time : 18.0071    LR : 0.0022
+[Test set] Average loss: 0.0023, Accuracy: 9176/10000 (91.76%)
+save by ./Result_v3/CosWarmUp/ResNet18_PReLU/20_14_31/ResNet18_PReLU_best.pt
+
+Epoch [108]
+[Train set] Loss: 0.0002, Accuracy: 49988/50000 (99.98%)  Epoch time : 18.0245    LR : 0.0019
+[Test set] Average loss: 0.0023, Accuracy: 9174/10000 (91.74%)
+
+Epoch [109]
+[Train set] Loss: 0.0008, Accuracy: 49989/50000 (99.98%)  Epoch time : 17.9798    LR : 0.0016
+[Test set] Average loss: 0.0023, Accuracy: 9177/10000 (91.77%)
+save by ./Result_v3/CosWarmUp/ResNet18_PReLU/20_14_31/ResNet18_PReLU_best.pt
+
+Epoch [110]
+[Train set] Loss: 0.0001, Accuracy: 49989/50000 (99.98%)  Epoch time : 18.0130    LR : 0.0013
+[Test set] Average loss: 0.0023, Accuracy: 9179/10000 (91.79%)
+save by ./Result_v3/CosWarmUp/ResNet18_PReLU/20_14_31/ResNet18_PReLU_best.pt
+
+Epoch [111]
+[Train set] Loss: 0.0032, Accuracy: 49994/50000 (99.99%)  Epoch time : 18.0616    LR : 0.0011
+[Test set] Average loss: 0.0023, Accuracy: 9164/10000 (91.64%)
+
+Epoch [112]
+[Train set] Loss: 0.0995, Accuracy: 49993/50000 (99.99%)  Epoch time : 17.9819    LR : 0.0008
+[Test set] Average loss: 0.0023, Accuracy: 9174/10000 (91.74%)
+
+Epoch [113]
+[Train set] Loss: 0.0021, Accuracy: 49995/50000 (99.99%)  Epoch time : 18.0075    LR : 0.0006
+[Test set] Average loss: 0.0023, Accuracy: 9179/10000 (91.79%)
+
+Epoch [114]
+[Train set] Loss: 0.0009, Accuracy: 49990/50000 (99.98%)  Epoch time : 18.0344    LR : 0.0004
+[Test set] Average loss: 0.0023, Accuracy: 9184/10000 (91.84%)
+save by ./Result_v3/CosWarmUp/ResNet18_PReLU/20_14_31/ResNet18_PReLU_best.pt
+
+Epoch [115]
+[Train set] Loss: 0.0001, Accuracy: 49989/50000 (99.98%)  Epoch time : 18.0581    LR : 0.0003
+[Test set] Average loss: 0.0023, Accuracy: 9170/10000 (91.70%)
+
+Epoch [116]
+[Train set] Loss: 0.0012, Accuracy: 49991/50000 (99.98%)  Epoch time : 17.9975    LR : 0.0002
+[Test set] Average loss: 0.0023, Accuracy: 9189/10000 (91.89%)
+save by ./Result_v3/CosWarmUp/ResNet18_PReLU/20_14_31/ResNet18_PReLU_best.pt
+
+Epoch [117]
+[Train set] Loss: 0.0181, Accuracy: 49989/50000 (99.98%)  Epoch time : 17.9584    LR : 0.0001
+[Test set] Average loss: 0.0023, Accuracy: 9198/10000 (91.98%)
+save by ./Result_v3/CosWarmUp/ResNet18_PReLU/20_14_31/ResNet18_PReLU_best.pt
+
+Epoch [118]
+[Train set] Loss: 0.0004, Accuracy: 49995/50000 (99.99%)  Epoch time : 17.9652    LR : 0.0000
+[Test set] Average loss: 0.0023, Accuracy: 9179/10000 (91.79%)
+
+Epoch [119]
+[Train set] Loss: 0.0003, Accuracy: 49994/50000 (99.99%)  Epoch time : 17.9334    LR : 0.0000
+[Test set] Average loss: 0.0023, Accuracy: 9191/10000 (91.91%)
+
+Epoch [120]
+[Train set] Loss: 0.0003, Accuracy: 49989/50000 (99.98%)  Epoch time : 18.0324    LR : 0.0039
+[Test set] Average loss: 0.0023, Accuracy: 9170/10000 (91.70%)
+
+Epoch [121]
+[Train set] Loss: 0.0000, Accuracy: 49991/50000 (99.98%)  Epoch time : 18.0711    LR : 0.0038
+[Test set] Average loss: 0.0023, Accuracy: 9180/10000 (91.80%)
+
+Epoch [122]
+[Train set] Loss: 0.0002, Accuracy: 49995/50000 (99.99%)  Epoch time : 18.0843    LR : 0.0038
+[Test set] Average loss: 0.0023, Accuracy: 9175/10000 (91.75%)
+
+Epoch [123]
+[Train set] Loss: 0.0027, Accuracy: 49988/50000 (99.98%)  Epoch time : 18.0880    LR : 0.0037
+[Test set] Average loss: 0.0023, Accuracy: 9177/10000 (91.77%)
+
+Epoch [124]
+[Train set] Loss: 0.0000, Accuracy: 49992/50000 (99.98%)  Epoch time : 18.1114    LR : 0.0036
+[Test set] Average loss: 0.0023, Accuracy: 9179/10000 (91.79%)
+
+Epoch [125]
+[Train set] Loss: 0.0001, Accuracy: 49993/50000 (99.99%)  Epoch time : 18.0478    LR : 0.0035
+[Test set] Average loss: 0.0023, Accuracy: 9168/10000 (91.68%)
+
+Epoch [126]
+[Train set] Loss: 0.0000, Accuracy: 49994/50000 (99.99%)  Epoch time : 18.0587    LR : 0.0034
+[Test set] Average loss: 0.0023, Accuracy: 9192/10000 (91.92%)
+
+Epoch [127]
+[Train set] Loss: 0.0163, Accuracy: 49993/50000 (99.99%)  Epoch time : 18.0110    LR : 0.0032
+[Test set] Average loss: 0.0023, Accuracy: 9176/10000 (91.76%)
+
+Epoch [128]
+[Train set] Loss: 0.0000, Accuracy: 49993/50000 (99.99%)  Epoch time : 18.0157    LR : 0.0031
+[Test set] Average loss: 0.0023, Accuracy: 9181/10000 (91.81%)
+
+Epoch [129]
+[Train set] Loss: 0.0001, Accuracy: 49990/50000 (99.98%)  Epoch time : 17.9956    LR : 0.0029
+[Test set] Average loss: 0.0023, Accuracy: 9182/10000 (91.82%)
+
+Epoch [130]
+[Train set] Loss: 0.0012, Accuracy: 49993/50000 (99.99%)  Epoch time : 18.1010    LR : 0.0027
+[Test set] Average loss: 0.0023, Accuracy: 9191/10000 (91.91%)
+
+Epoch [131]
+[Train set] Loss: 0.0000, Accuracy: 49994/50000 (99.99%)  Epoch time : 17.9993    LR : 0.0025
+[Test set] Average loss: 0.0023, Accuracy: 9189/10000 (91.89%)
+
+Epoch [132]
+[Train set] Loss: 0.0001, Accuracy: 49987/50000 (99.97%)  Epoch time : 18.0431    LR : 0.0023
+[Test set] Average loss: 0.0023, Accuracy: 9183/10000 (91.83%)
+
+Epoch [133]
+[Train set] Loss: 0.0012, Accuracy: 49990/50000 (99.98%)  Epoch time : 18.0111    LR : 0.0021
+[Test set] Average loss: 0.0023, Accuracy: 9187/10000 (91.87%)
+
+Epoch [134]
+[Train set] Loss: 0.0001, Accuracy: 49994/50000 (99.99%)  Epoch time : 18.0900    LR : 0.0019
+[Test set] Average loss: 0.0023, Accuracy: 9187/10000 (91.87%)
+
+Epoch [135]
+[Train set] Loss: 0.0000, Accuracy: 49994/50000 (99.99%)  Epoch time : 18.0201    LR : 0.0017
+[Test set] Average loss: 0.0023, Accuracy: 9176/10000 (91.76%)
+
+Epoch [136]
+[Train set] Loss: 0.0002, Accuracy: 49988/50000 (99.98%)  Epoch time : 18.0809    LR : 0.0015
+[Test set] Average loss: 0.0023, Accuracy: 9184/10000 (91.84%)
+
+Epoch [137]
+[Train set] Loss: 0.0000, Accuracy: 49995/50000 (99.99%)  Epoch time : 18.0342    LR : 0.0013
+[Test set] Average loss: 0.0023, Accuracy: 9176/10000 (91.76%)
+
+Epoch [138]
+[Train set] Loss: 0.0001, Accuracy: 49994/50000 (99.99%)  Epoch time : 18.1045    LR : 0.0012
+[Test set] Average loss: 0.0024, Accuracy: 9174/10000 (91.74%)
+
+Epoch [139]
+[Train set] Loss: 0.0052, Accuracy: 49987/50000 (99.97%)  Epoch time : 18.0129    LR : 0.0010
+[Test set] Average loss: 0.0023, Accuracy: 9176/10000 (91.76%)
+
+Epoch [140]
+[Train set] Loss: 0.0002, Accuracy: 49992/50000 (99.98%)  Epoch time : 18.0482    LR : 0.0008
+[Test set] Average loss: 0.0023, Accuracy: 9183/10000 (91.83%)
+
+Epoch [141]
+[Train set] Loss: 0.0001, Accuracy: 49994/50000 (99.99%)  Epoch time : 18.0789    LR : 0.0006
+[Test set] Average loss: 0.0023, Accuracy: 9181/10000 (91.81%)
+
+Epoch [142]
+[Train set] Loss: 0.0014, Accuracy: 49996/50000 (99.99%)  Epoch time : 18.0374    LR : 0.0005
+[Test set] Average loss: 0.0023, Accuracy: 9179/10000 (91.79%)
+
+Epoch [143]
+[Train set] Loss: 0.0003, Accuracy: 49995/50000 (99.99%)  Epoch time : 17.9833    LR : 0.0004
+[Test set] Average loss: 0.0023, Accuracy: 9186/10000 (91.86%)
+
+Epoch [144]
+[Train set] Loss: 0.0007, Accuracy: 49996/50000 (99.99%)  Epoch time : 17.9933    LR : 0.0003
+[Test set] Average loss: 0.0023, Accuracy: 9180/10000 (91.80%)
+
+Epoch [145]
+[Train set] Loss: 0.0000, Accuracy: 49996/50000 (99.99%)  Epoch time : 17.9855    LR : 0.0002
+[Test set] Average loss: 0.0023, Accuracy: 9188/10000 (91.88%)
+
+Epoch [146]
+[Train set] Loss: 0.0004, Accuracy: 49993/50000 (99.99%)  Epoch time : 18.1401    LR : 0.0001
+[Test set] Average loss: 0.0023, Accuracy: 9181/10000 (91.81%)
+
+Epoch [147]
+[Train set] Loss: 0.0003, Accuracy: 49994/50000 (99.99%)  Epoch time : 18.1253    LR : 0.0000
+[Test set] Average loss: 0.0023, Accuracy: 9184/10000 (91.84%)
+
+Epoch [148]
+[Train set] Loss: 0.0002, Accuracy: 49999/50000 (100.00%)  Epoch time : 18.0234    LR : 0.0000
+[Test set] Average loss: 0.0023, Accuracy: 9183/10000 (91.83%)
+
+Epoch [149]
+[Train set] Loss: 0.0044, Accuracy: 49998/50000 (100.00%)  Epoch time : 18.0221    LR : 0.0000
+[Test set] Average loss: 0.0023, Accuracy: 9186/10000 (91.86%)
+
+Epoch [150]
+[Train set] Loss: 0.0000, Accuracy: 49995/50000 (99.99%)  Epoch time : 18.0319    LR : 0.0023
+[Test set] Average loss: 0.0023, Accuracy: 9186/10000 (91.86%)
+Time ellapsed in training is: 2892.4740619659424
+save dir : ./Result_v3/CosWarmUp/ResNet18_PReLU/20_14_31
+
+
+**************  start new model : ResNet18 ******************
+Files already downloaded and verified
+SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.03
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0005
+)
+-1
+False
+/opt/conda/lib/python3.7/site-packages/torch/storage.py:34: FutureWarning: pickle support for Storage will be removed in 1.5. Use `torch.save` instead
+  warnings.warn("pickle support for Storage will be removed in 1.5. Use `torch.save` instead", FutureWarning)
+
+Epoch [1]
+[Train set] Loss: 1.4165, Accuracy: 22656/50000 (45.31%)  Epoch time : 17.4358    LR : 0.0297
+[Test set] Average loss: 0.0053, Accuracy: 5413/10000 (54.13%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [2]
+[Train set] Loss: 0.8450, Accuracy: 32277/50000 (64.55%)  Epoch time : 17.4114    LR : 0.0293
+[Test set] Average loss: 0.0064, Accuracy: 5516/10000 (55.16%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [3]
+[Train set] Loss: 0.6839, Accuracy: 36640/50000 (73.28%)  Epoch time : 17.4156    LR : 0.0287
+[Test set] Average loss: 0.0039, Accuracy: 6840/10000 (68.40%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [4]
+[Train set] Loss: 0.5786, Accuracy: 39004/50000 (78.01%)  Epoch time : 17.4199    LR : 0.0280
+[Test set] Average loss: 0.0033, Accuracy: 7297/10000 (72.97%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [5]
+[Train set] Loss: 0.4120, Accuracy: 40626/50000 (81.25%)  Epoch time : 17.4023    LR : 0.0271
+[Test set] Average loss: 0.0029, Accuracy: 7581/10000 (75.81%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [6]
+[Train set] Loss: 0.6197, Accuracy: 41634/50000 (83.27%)  Epoch time : 17.4035    LR : 0.0262
+[Test set] Average loss: 0.0026, Accuracy: 7822/10000 (78.22%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [7]
+[Train set] Loss: 0.3267, Accuracy: 42593/50000 (85.19%)  Epoch time : 17.3936    LR : 0.0250
+[Test set] Average loss: 0.0021, Accuracy: 8333/10000 (83.33%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [8]
+[Train set] Loss: 0.3871, Accuracy: 43235/50000 (86.47%)  Epoch time : 17.4028    LR : 0.0238
+[Test set] Average loss: 0.0021, Accuracy: 8295/10000 (82.95%)
+
+Epoch [9]
+[Train set] Loss: 0.3346, Accuracy: 43771/50000 (87.54%)  Epoch time : 17.4090    LR : 0.0225
+[Test set] Average loss: 0.0020, Accuracy: 8310/10000 (83.10%)
+
+Epoch [10]
+[Train set] Loss: 0.3758, Accuracy: 44352/50000 (88.70%)  Epoch time : 17.4034    LR : 0.0211
+[Test set] Average loss: 0.0022, Accuracy: 8210/10000 (82.10%)
+
+Epoch [11]
+[Train set] Loss: 0.4538, Accuracy: 44828/50000 (89.66%)  Epoch time : 17.4079    LR : 0.0196
+[Test set] Average loss: 0.0017, Accuracy: 8556/10000 (85.56%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [12]
+[Train set] Loss: 0.2872, Accuracy: 45336/50000 (90.67%)  Epoch time : 17.3713    LR : 0.0181
+[Test set] Average loss: 0.0018, Accuracy: 8579/10000 (85.79%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [13]
+[Train set] Loss: 0.3196, Accuracy: 45724/50000 (91.45%)  Epoch time : 17.4428    LR : 0.0166
+[Test set] Average loss: 0.0019, Accuracy: 8431/10000 (84.31%)
+
+Epoch [14]
+[Train set] Loss: 0.1738, Accuracy: 46031/50000 (92.06%)  Epoch time : 17.3698    LR : 0.0150
+[Test set] Average loss: 0.0015, Accuracy: 8813/10000 (88.13%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [15]
+[Train set] Loss: 0.0859, Accuracy: 46426/50000 (92.85%)  Epoch time : 17.4005    LR : 0.0134
+[Test set] Average loss: 0.0015, Accuracy: 8784/10000 (87.84%)
+
+Epoch [16]
+[Train set] Loss: 0.0999, Accuracy: 46850/50000 (93.70%)  Epoch time : 17.3881    LR : 0.0119
+[Test set] Average loss: 0.0014, Accuracy: 8866/10000 (88.66%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [17]
+[Train set] Loss: 0.1720, Accuracy: 47253/50000 (94.51%)  Epoch time : 17.3899    LR : 0.0104
+[Test set] Average loss: 0.0016, Accuracy: 8846/10000 (88.46%)
+
+Epoch [18]
+[Train set] Loss: 0.1323, Accuracy: 47609/50000 (95.22%)  Epoch time : 17.3772    LR : 0.0089
+[Test set] Average loss: 0.0015, Accuracy: 8940/10000 (89.40%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [19]
+[Train set] Loss: 0.3708, Accuracy: 47830/50000 (95.66%)  Epoch time : 17.4429    LR : 0.0075
+[Test set] Average loss: 0.0014, Accuracy: 8986/10000 (89.86%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [20]
+[Train set] Loss: 0.1030, Accuracy: 48178/50000 (96.36%)  Epoch time : 17.4036    LR : 0.0062
+[Test set] Average loss: 0.0013, Accuracy: 9002/10000 (90.02%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [21]
+[Train set] Loss: 0.0875, Accuracy: 48403/50000 (96.81%)  Epoch time : 17.3668    LR : 0.0050
+[Test set] Average loss: 0.0013, Accuracy: 9029/10000 (90.29%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [22]
+[Train set] Loss: 0.0860, Accuracy: 48690/50000 (97.38%)  Epoch time : 17.4014    LR : 0.0039
+[Test set] Average loss: 0.0012, Accuracy: 9141/10000 (91.41%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [23]
+[Train set] Loss: 0.1506, Accuracy: 48962/50000 (97.92%)  Epoch time : 17.3812    LR : 0.0029
+[Test set] Average loss: 0.0012, Accuracy: 9155/10000 (91.55%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [24]
+[Train set] Loss: 0.1143, Accuracy: 49090/50000 (98.18%)  Epoch time : 17.4287    LR : 0.0020
+[Test set] Average loss: 0.0011, Accuracy: 9163/10000 (91.63%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [25]
+[Train set] Loss: 0.0772, Accuracy: 49305/50000 (98.61%)  Epoch time : 17.4059    LR : 0.0013
+[Test set] Average loss: 0.0011, Accuracy: 9181/10000 (91.81%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [26]
+[Train set] Loss: 0.0908, Accuracy: 49398/50000 (98.80%)  Epoch time : 17.4696    LR : 0.0007
+[Test set] Average loss: 0.0011, Accuracy: 9224/10000 (92.24%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [27]
+[Train set] Loss: 0.0621, Accuracy: 49471/50000 (98.94%)  Epoch time : 17.4349    LR : 0.0003
+[Test set] Average loss: 0.0011, Accuracy: 9200/10000 (92.00%)
+
+Epoch [28]
+[Train set] Loss: 0.0666, Accuracy: 49506/50000 (99.01%)  Epoch time : 17.4315    LR : 0.0001
+[Test set] Average loss: 0.0011, Accuracy: 9200/10000 (92.00%)
+
+Epoch [29]
+[Train set] Loss: 0.0434, Accuracy: 49536/50000 (99.07%)  Epoch time : 17.4159    LR : 0.0000
+[Test set] Average loss: 0.0011, Accuracy: 9204/10000 (92.04%)
+
+Epoch [30]
+[Train set] Loss: 0.0322, Accuracy: 49565/50000 (99.13%)  Epoch time : 17.4775    LR : 0.0180
+[Test set] Average loss: 0.0011, Accuracy: 9205/10000 (92.05%)
+
+Epoch [31]
+[Train set] Loss: 0.1833, Accuracy: 46626/50000 (93.25%)  Epoch time : 17.4515    LR : 0.0178
+[Test set] Average loss: 0.0028, Accuracy: 8181/10000 (81.81%)
+
+Epoch [32]
+[Train set] Loss: 0.2528, Accuracy: 46939/50000 (93.88%)  Epoch time : 17.4598    LR : 0.0176
+[Test set] Average loss: 0.0022, Accuracy: 8388/10000 (83.88%)
+
+Epoch [33]
+[Train set] Loss: 0.1436, Accuracy: 47131/50000 (94.26%)  Epoch time : 17.4375    LR : 0.0172
+[Test set] Average loss: 0.0018, Accuracy: 8628/10000 (86.28%)
+
+Epoch [34]
+[Train set] Loss: 0.2213, Accuracy: 47364/50000 (94.73%)  Epoch time : 17.4392    LR : 0.0168
+[Test set] Average loss: 0.0016, Accuracy: 8846/10000 (88.46%)
+
+Epoch [35]
+[Train set] Loss: 0.1201, Accuracy: 47584/50000 (95.17%)  Epoch time : 17.4336    LR : 0.0163
+[Test set] Average loss: 0.0017, Accuracy: 8863/10000 (88.63%)
+
+Epoch [36]
+[Train set] Loss: 0.3653, Accuracy: 47677/50000 (95.35%)  Epoch time : 17.4227    LR : 0.0157
+[Test set] Average loss: 0.0016, Accuracy: 8801/10000 (88.01%)
+
+Epoch [37]
+[Train set] Loss: 0.1210, Accuracy: 47803/50000 (95.61%)  Epoch time : 17.3948    LR : 0.0150
+[Test set] Average loss: 0.0016, Accuracy: 8850/10000 (88.50%)
+
+Epoch [38]
+[Train set] Loss: 0.2335, Accuracy: 48086/50000 (96.17%)  Epoch time : 17.4561    LR : 0.0143
+[Test set] Average loss: 0.0014, Accuracy: 9012/10000 (90.12%)
+
+Epoch [39]
+[Train set] Loss: 0.0617, Accuracy: 48261/50000 (96.52%)  Epoch time : 17.4577    LR : 0.0135
+[Test set] Average loss: 0.0017, Accuracy: 8875/10000 (88.75%)
+
+Epoch [40]
+[Train set] Loss: 0.0933, Accuracy: 48407/50000 (96.81%)  Epoch time : 17.4588    LR : 0.0127
+[Test set] Average loss: 0.0015, Accuracy: 8993/10000 (89.93%)
+
+Epoch [41]
+[Train set] Loss: 0.0769, Accuracy: 48689/50000 (97.38%)  Epoch time : 17.4079    LR : 0.0118
+[Test set] Average loss: 0.0014, Accuracy: 9040/10000 (90.40%)
+
+Epoch [42]
+[Train set] Loss: 0.0557, Accuracy: 48812/50000 (97.62%)  Epoch time : 17.4510    LR : 0.0109
+[Test set] Average loss: 0.0013, Accuracy: 9044/10000 (90.44%)
+
+Epoch [43]
+[Train set] Loss: 0.0726, Accuracy: 48935/50000 (97.87%)  Epoch time : 17.4721    LR : 0.0099
+[Test set] Average loss: 0.0013, Accuracy: 9127/10000 (91.27%)
+
+Epoch [44]
+[Train set] Loss: 0.1485, Accuracy: 49258/50000 (98.52%)  Epoch time : 17.4524    LR : 0.0090
+[Test set] Average loss: 0.0014, Accuracy: 9079/10000 (90.79%)
+
+Epoch [45]
+[Train set] Loss: 0.0820, Accuracy: 49289/50000 (98.58%)  Epoch time : 17.4739    LR : 0.0081
+[Test set] Average loss: 0.0013, Accuracy: 9174/10000 (91.74%)
+
+Epoch [46]
+[Train set] Loss: 0.0143, Accuracy: 49471/50000 (98.94%)  Epoch time : 17.4848    LR : 0.0071
+[Test set] Average loss: 0.0013, Accuracy: 9156/10000 (91.56%)
+
+Epoch [47]
+[Train set] Loss: 0.0330, Accuracy: 49590/50000 (99.18%)  Epoch time : 17.4439    LR : 0.0062
+[Test set] Average loss: 0.0014, Accuracy: 9155/10000 (91.55%)
+
+Epoch [48]
+[Train set] Loss: 0.0968, Accuracy: 49695/50000 (99.39%)  Epoch time : 17.4102    LR : 0.0053
+[Test set] Average loss: 0.0012, Accuracy: 9245/10000 (92.45%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [49]
+[Train set] Loss: 0.0040, Accuracy: 49757/50000 (99.51%)  Epoch time : 17.4205    LR : 0.0045
+[Test set] Average loss: 0.0011, Accuracy: 9272/10000 (92.72%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [50]
+[Train set] Loss: 0.0278, Accuracy: 49807/50000 (99.61%)  Epoch time : 17.4304    LR : 0.0037
+[Test set] Average loss: 0.0012, Accuracy: 9248/10000 (92.48%)
+
+Epoch [51]
+[Train set] Loss: 0.0033, Accuracy: 49850/50000 (99.70%)  Epoch time : 17.4012    LR : 0.0030
+[Test set] Average loss: 0.0011, Accuracy: 9277/10000 (92.77%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [52]
+[Train set] Loss: 0.0214, Accuracy: 49912/50000 (99.82%)  Epoch time : 17.4104    LR : 0.0023
+[Test set] Average loss: 0.0011, Accuracy: 9289/10000 (92.89%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [53]
+[Train set] Loss: 0.0475, Accuracy: 49927/50000 (99.85%)  Epoch time : 17.4513    LR : 0.0017
+[Test set] Average loss: 0.0011, Accuracy: 9292/10000 (92.92%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [54]
+[Train set] Loss: 0.0230, Accuracy: 49940/50000 (99.88%)  Epoch time : 17.4274    LR : 0.0012
+[Test set] Average loss: 0.0011, Accuracy: 9295/10000 (92.95%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [55]
+[Train set] Loss: 0.0060, Accuracy: 49956/50000 (99.91%)  Epoch time : 17.4434    LR : 0.0008
+[Test set] Average loss: 0.0011, Accuracy: 9297/10000 (92.97%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [56]
+[Train set] Loss: 0.0134, Accuracy: 49954/50000 (99.91%)  Epoch time : 17.4356    LR : 0.0004
+[Test set] Average loss: 0.0011, Accuracy: 9308/10000 (93.08%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [57]
+[Train set] Loss: 0.0038, Accuracy: 49959/50000 (99.92%)  Epoch time : 17.4754    LR : 0.0002
+[Test set] Average loss: 0.0011, Accuracy: 9302/10000 (93.02%)
+
+Epoch [58]
+[Train set] Loss: 0.0082, Accuracy: 49963/50000 (99.93%)  Epoch time : 17.4416    LR : 0.0000
+[Test set] Average loss: 0.0011, Accuracy: 9303/10000 (93.03%)
+
+Epoch [59]
+[Train set] Loss: 0.0333, Accuracy: 49962/50000 (99.92%)  Epoch time : 17.4575    LR : 0.0000
+[Test set] Average loss: 0.0011, Accuracy: 9316/10000 (93.16%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [60]
+[Train set] Loss: 0.0034, Accuracy: 49971/50000 (99.94%)  Epoch time : 17.4178    LR : 0.0108
+[Test set] Average loss: 0.0011, Accuracy: 9310/10000 (93.10%)
+
+Epoch [61]
+[Train set] Loss: 0.0667, Accuracy: 49658/50000 (99.32%)  Epoch time : 17.4336    LR : 0.0107
+[Test set] Average loss: 0.0017, Accuracy: 9034/10000 (90.34%)
+
+Epoch [62]
+[Train set] Loss: 0.0627, Accuracy: 49044/50000 (98.09%)  Epoch time : 17.4156    LR : 0.0105
+[Test set] Average loss: 0.0017, Accuracy: 8975/10000 (89.75%)
+
+Epoch [63]
+[Train set] Loss: 0.0659, Accuracy: 49117/50000 (98.23%)  Epoch time : 17.5408    LR : 0.0103
+[Test set] Average loss: 0.0015, Accuracy: 9115/10000 (91.15%)
+
+Epoch [64]
+[Train set] Loss: 0.1243, Accuracy: 49117/50000 (98.23%)  Epoch time : 17.4942    LR : 0.0101
+[Test set] Average loss: 0.0015, Accuracy: 9037/10000 (90.37%)
+
+Epoch [65]
+[Train set] Loss: 0.0824, Accuracy: 49243/50000 (98.49%)  Epoch time : 17.4619    LR : 0.0098
+[Test set] Average loss: 0.0014, Accuracy: 9127/10000 (91.27%)
+
+Epoch [66]
+[Train set] Loss: 0.1253, Accuracy: 49425/50000 (98.85%)  Epoch time : 17.4513    LR : 0.0094
+[Test set] Average loss: 0.0014, Accuracy: 9109/10000 (91.09%)
+
+Epoch [67]
+[Train set] Loss: 0.0273, Accuracy: 49306/50000 (98.61%)  Epoch time : 17.4487    LR : 0.0090
+[Test set] Average loss: 0.0015, Accuracy: 9094/10000 (90.94%)
+
+Epoch [68]
+[Train set] Loss: 0.0065, Accuracy: 49525/50000 (99.05%)  Epoch time : 17.4279    LR : 0.0086
+[Test set] Average loss: 0.0014, Accuracy: 9134/10000 (91.34%)
+
+Epoch [69]
+[Train set] Loss: 0.0365, Accuracy: 49618/50000 (99.24%)  Epoch time : 17.4234    LR : 0.0081
+[Test set] Average loss: 0.0015, Accuracy: 9128/10000 (91.28%)
+
+Epoch [70]
+[Train set] Loss: 0.0316, Accuracy: 49632/50000 (99.26%)  Epoch time : 17.4387    LR : 0.0076
+[Test set] Average loss: 0.0013, Accuracy: 9187/10000 (91.87%)
+
+Epoch [71]
+[Train set] Loss: 0.0650, Accuracy: 49724/50000 (99.45%)  Epoch time : 17.4591    LR : 0.0071
+[Test set] Average loss: 0.0013, Accuracy: 9179/10000 (91.79%)
+
+Epoch [72]
+[Train set] Loss: 0.0246, Accuracy: 49767/50000 (99.53%)  Epoch time : 17.4393    LR : 0.0065
+[Test set] Average loss: 0.0013, Accuracy: 9240/10000 (92.40%)
+
+Epoch [73]
+[Train set] Loss: 0.0190, Accuracy: 49816/50000 (99.63%)  Epoch time : 17.4956    LR : 0.0060
+[Test set] Average loss: 0.0013, Accuracy: 9236/10000 (92.36%)
+
+Epoch [74]
+[Train set] Loss: 0.0058, Accuracy: 49882/50000 (99.76%)  Epoch time : 17.4597    LR : 0.0054
+[Test set] Average loss: 0.0012, Accuracy: 9250/10000 (92.50%)
+
+Epoch [75]
+[Train set] Loss: 0.0042, Accuracy: 49924/50000 (99.85%)  Epoch time : 17.4354    LR : 0.0048
+[Test set] Average loss: 0.0012, Accuracy: 9290/10000 (92.90%)
+
+Epoch [76]
+[Train set] Loss: 0.0080, Accuracy: 49945/50000 (99.89%)  Epoch time : 17.4596    LR : 0.0043
+[Test set] Average loss: 0.0012, Accuracy: 9306/10000 (93.06%)
+
+Epoch [77]
+[Train set] Loss: 0.0074, Accuracy: 49953/50000 (99.91%)  Epoch time : 17.4772    LR : 0.0037
+[Test set] Average loss: 0.0011, Accuracy: 9306/10000 (93.06%)
+
+Epoch [78]
+[Train set] Loss: 0.0124, Accuracy: 49961/50000 (99.92%)  Epoch time : 17.4659    LR : 0.0032
+[Test set] Average loss: 0.0011, Accuracy: 9319/10000 (93.19%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [79]
+[Train set] Loss: 0.0027, Accuracy: 49976/50000 (99.95%)  Epoch time : 17.4761    LR : 0.0027
+[Test set] Average loss: 0.0012, Accuracy: 9305/10000 (93.05%)
+
+Epoch [80]
+[Train set] Loss: 0.0094, Accuracy: 49980/50000 (99.96%)  Epoch time : 17.4795    LR : 0.0022
+[Test set] Average loss: 0.0012, Accuracy: 9328/10000 (93.28%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [81]
+[Train set] Loss: 0.0043, Accuracy: 49990/50000 (99.98%)  Epoch time : 17.4721    LR : 0.0018
+[Test set] Average loss: 0.0012, Accuracy: 9306/10000 (93.06%)
+
+Epoch [82]
+[Train set] Loss: 0.0015, Accuracy: 49986/50000 (99.97%)  Epoch time : 17.4749    LR : 0.0014
+[Test set] Average loss: 0.0012, Accuracy: 9322/10000 (93.22%)
+
+Epoch [83]
+[Train set] Loss: 0.0025, Accuracy: 49984/50000 (99.97%)  Epoch time : 17.5064    LR : 0.0010
+[Test set] Average loss: 0.0011, Accuracy: 9320/10000 (93.20%)
+
+Epoch [84]
+[Train set] Loss: 0.0053, Accuracy: 49989/50000 (99.98%)  Epoch time : 17.5146    LR : 0.0007
+[Test set] Average loss: 0.0011, Accuracy: 9329/10000 (93.29%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [85]
+[Train set] Loss: 0.0021, Accuracy: 49991/50000 (99.98%)  Epoch time : 17.4561    LR : 0.0005
+[Test set] Average loss: 0.0011, Accuracy: 9315/10000 (93.15%)
+
+Epoch [86]
+[Train set] Loss: 0.0048, Accuracy: 49992/50000 (99.98%)  Epoch time : 17.4362    LR : 0.0003
+[Test set] Average loss: 0.0011, Accuracy: 9317/10000 (93.17%)
+
+Epoch [87]
+[Train set] Loss: 0.0023, Accuracy: 49988/50000 (99.98%)  Epoch time : 17.4640    LR : 0.0001
+[Test set] Average loss: 0.0011, Accuracy: 9318/10000 (93.18%)
+
+Epoch [88]
+[Train set] Loss: 0.0018, Accuracy: 49993/50000 (99.99%)  Epoch time : 17.4714    LR : 0.0000
+[Test set] Average loss: 0.0011, Accuracy: 9331/10000 (93.31%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [89]
+[Train set] Loss: 0.0050, Accuracy: 49996/50000 (99.99%)  Epoch time : 17.3933    LR : 0.0000
+[Test set] Average loss: 0.0011, Accuracy: 9311/10000 (93.11%)
+
+Epoch [90]
+[Train set] Loss: 0.0011, Accuracy: 49987/50000 (99.97%)  Epoch time : 17.4597    LR : 0.0065
+[Test set] Average loss: 0.0012, Accuracy: 9325/10000 (93.25%)
+
+Epoch [91]
+[Train set] Loss: 0.0109, Accuracy: 49975/50000 (99.95%)  Epoch time : 17.4748    LR : 0.0064
+[Test set] Average loss: 0.0012, Accuracy: 9301/10000 (93.01%)
+
+Epoch [92]
+[Train set] Loss: 0.0041, Accuracy: 49974/50000 (99.95%)  Epoch time : 17.4731    LR : 0.0063
+[Test set] Average loss: 0.0012, Accuracy: 9296/10000 (92.96%)
+
+Epoch [93]
+[Train set] Loss: 0.0244, Accuracy: 49966/50000 (99.93%)  Epoch time : 17.4192    LR : 0.0062
+[Test set] Average loss: 0.0012, Accuracy: 9291/10000 (92.91%)
+
+Epoch [94]
+[Train set] Loss: 0.0043, Accuracy: 49966/50000 (99.93%)  Epoch time : 17.4714    LR : 0.0060
+[Test set] Average loss: 0.0012, Accuracy: 9286/10000 (92.86%)
+
+Epoch [95]
+[Train set] Loss: 0.0173, Accuracy: 49963/50000 (99.93%)  Epoch time : 17.4473    LR : 0.0059
+[Test set] Average loss: 0.0012, Accuracy: 9294/10000 (92.94%)
+
+Epoch [96]
+[Train set] Loss: 0.0026, Accuracy: 49965/50000 (99.93%)  Epoch time : 17.4864    LR : 0.0056
+[Test set] Average loss: 0.0012, Accuracy: 9308/10000 (93.08%)
+
+Epoch [97]
+[Train set] Loss: 0.0088, Accuracy: 49948/50000 (99.90%)  Epoch time : 17.4535    LR : 0.0054
+[Test set] Average loss: 0.0013, Accuracy: 9270/10000 (92.70%)
+
+Epoch [98]
+[Train set] Loss: 0.0025, Accuracy: 49977/50000 (99.95%)  Epoch time : 17.4186    LR : 0.0051
+[Test set] Average loss: 0.0012, Accuracy: 9298/10000 (92.98%)
+
+Epoch [99]
+[Train set] Loss: 0.0035, Accuracy: 49966/50000 (99.93%)  Epoch time : 17.4487    LR : 0.0049
+[Test set] Average loss: 0.0012, Accuracy: 9304/10000 (93.04%)
+
+Epoch [100]
+[Train set] Loss: 0.0143, Accuracy: 49969/50000 (99.94%)  Epoch time : 17.4646    LR : 0.0046
+[Test set] Average loss: 0.0012, Accuracy: 9321/10000 (93.21%)
+
+Epoch [101]
+[Train set] Loss: 0.0015, Accuracy: 49970/50000 (99.94%)  Epoch time : 17.4285    LR : 0.0042
+[Test set] Average loss: 0.0011, Accuracy: 9313/10000 (93.13%)
+
+Epoch [102]
+[Train set] Loss: 0.0032, Accuracy: 49993/50000 (99.99%)  Epoch time : 17.4474    LR : 0.0039
+[Test set] Average loss: 0.0011, Accuracy: 9324/10000 (93.24%)
+
+Epoch [103]
+[Train set] Loss: 0.0036, Accuracy: 49987/50000 (99.97%)  Epoch time : 17.4384    LR : 0.0036
+[Test set] Average loss: 0.0012, Accuracy: 9319/10000 (93.19%)
+
+Epoch [104]
+[Train set] Loss: 0.0061, Accuracy: 49993/50000 (99.99%)  Epoch time : 17.4527    LR : 0.0032
+[Test set] Average loss: 0.0011, Accuracy: 9332/10000 (93.32%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [105]
+[Train set] Loss: 0.0050, Accuracy: 49993/50000 (99.99%)  Epoch time : 17.4726    LR : 0.0029
+[Test set] Average loss: 0.0011, Accuracy: 9325/10000 (93.25%)
+
+Epoch [106]
+[Train set] Loss: 0.0021, Accuracy: 49988/50000 (99.98%)  Epoch time : 17.4303    LR : 0.0026
+[Test set] Average loss: 0.0011, Accuracy: 9333/10000 (93.33%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [107]
+[Train set] Loss: 0.0056, Accuracy: 49997/50000 (99.99%)  Epoch time : 17.4595    LR : 0.0022
+[Test set] Average loss: 0.0011, Accuracy: 9328/10000 (93.28%)
+
+Epoch [108]
+[Train set] Loss: 0.0008, Accuracy: 49993/50000 (99.99%)  Epoch time : 17.4696    LR : 0.0019
+[Test set] Average loss: 0.0011, Accuracy: 9325/10000 (93.25%)
+
+Epoch [109]
+[Train set] Loss: 0.0019, Accuracy: 49993/50000 (99.99%)  Epoch time : 17.4618    LR : 0.0016
+[Test set] Average loss: 0.0011, Accuracy: 9325/10000 (93.25%)
+
+Epoch [110]
+[Train set] Loss: 0.0029, Accuracy: 49997/50000 (99.99%)  Epoch time : 17.4723    LR : 0.0013
+[Test set] Average loss: 0.0011, Accuracy: 9329/10000 (93.29%)
+
+Epoch [111]
+[Train set] Loss: 0.0024, Accuracy: 49999/50000 (100.00%)  Epoch time : 17.4923    LR : 0.0011
+[Test set] Average loss: 0.0011, Accuracy: 9322/10000 (93.22%)
+
+Epoch [112]
+[Train set] Loss: 0.0024, Accuracy: 49999/50000 (100.00%)  Epoch time : 17.4669    LR : 0.0008
+[Test set] Average loss: 0.0011, Accuracy: 9325/10000 (93.25%)
+
+Epoch [113]
+[Train set] Loss: 0.0048, Accuracy: 49996/50000 (99.99%)  Epoch time : 17.5285    LR : 0.0006
+[Test set] Average loss: 0.0011, Accuracy: 9320/10000 (93.20%)
+
+Epoch [114]
+[Train set] Loss: 0.0035, Accuracy: 50000/50000 (100.00%)  Epoch time : 17.4797    LR : 0.0004
+[Test set] Average loss: 0.0011, Accuracy: 9327/10000 (93.27%)
+
+Epoch [115]
+[Train set] Loss: 0.0081, Accuracy: 49994/50000 (99.99%)  Epoch time : 17.5146    LR : 0.0003
+[Test set] Average loss: 0.0011, Accuracy: 9322/10000 (93.22%)
+
+Epoch [116]
+[Train set] Loss: 0.0026, Accuracy: 49999/50000 (100.00%)  Epoch time : 17.4552    LR : 0.0002
+[Test set] Average loss: 0.0011, Accuracy: 9333/10000 (93.33%)
+
+Epoch [117]
+[Train set] Loss: 0.0010, Accuracy: 49999/50000 (100.00%)  Epoch time : 17.4659    LR : 0.0001
+[Test set] Average loss: 0.0011, Accuracy: 9334/10000 (93.34%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [118]
+[Train set] Loss: 0.0012, Accuracy: 49999/50000 (100.00%)  Epoch time : 17.4746    LR : 0.0000
+[Test set] Average loss: 0.0011, Accuracy: 9325/10000 (93.25%)
+
+Epoch [119]
+[Train set] Loss: 0.0010, Accuracy: 49998/50000 (100.00%)  Epoch time : 17.4313    LR : 0.0000
+[Test set] Average loss: 0.0011, Accuracy: 9324/10000 (93.24%)
+
+Epoch [120]
+[Train set] Loss: 0.0031, Accuracy: 49999/50000 (100.00%)  Epoch time : 17.4833    LR : 0.0039
+[Test set] Average loss: 0.0011, Accuracy: 9331/10000 (93.31%)
+
+Epoch [121]
+[Train set] Loss: 0.0006, Accuracy: 49998/50000 (100.00%)  Epoch time : 17.4434    LR : 0.0038
+[Test set] Average loss: 0.0011, Accuracy: 9322/10000 (93.22%)
+
+Epoch [122]
+[Train set] Loss: 0.0030, Accuracy: 49999/50000 (100.00%)  Epoch time : 17.4321    LR : 0.0038
+[Test set] Average loss: 0.0011, Accuracy: 9344/10000 (93.44%)
+save by ./Result_v3/CosWarmUp/ResNet18/20_15_19/ResNet18_best.pt
+
+Epoch [123]
+[Train set] Loss: 0.0020, Accuracy: 49996/50000 (99.99%)  Epoch time : 17.4380    LR : 0.0037
+[Test set] Average loss: 0.0011, Accuracy: 9324/10000 (93.24%)
+
+Epoch [124]
+[Train set] Loss: 0.0039, Accuracy: 49998/50000 (100.00%)  Epoch time : 17.4479    LR : 0.0036
+[Test set] Average loss: 0.0011, Accuracy: 9322/10000 (93.22%)
+
+Epoch [125]
+[Train set] Loss: 0.0035, Accuracy: 49994/50000 (99.99%)  Epoch time : 17.4392    LR : 0.0035
+[Test set] Average loss: 0.0011, Accuracy: 9323/10000 (93.23%)
+
+Epoch [126]
+[Train set] Loss: 0.0024, Accuracy: 49997/50000 (99.99%)  Epoch time : 17.4569    LR : 0.0034
+[Test set] Average loss: 0.0011, Accuracy: 9334/10000 (93.34%)
+
+Epoch [127]
+[Train set] Loss: 0.0013, Accuracy: 49998/50000 (100.00%)  Epoch time : 17.5047    LR : 0.0032
+[Test set] Average loss: 0.0011, Accuracy: 9337/10000 (93.37%)
+
+Epoch [128]
+[Train set] Loss: 0.0062, Accuracy: 49999/50000 (100.00%)  Epoch time : 17.4842    LR : 0.0031
+[Test set] Average loss: 0.0011, Accuracy: 9340/10000 (93.40%)
+
+Epoch [129]
+[Train set] Loss: 0.0028, Accuracy: 49998/50000 (100.00%)  Epoch time : 17.5300    LR : 0.0029
+[Test set] Average loss: 0.0011, Accuracy: 9340/10000 (93.40%)
+
+Epoch [130]
+[Train set] Loss: 0.0030, Accuracy: 49998/50000 (100.00%)  Epoch time : 17.5240    LR : 0.0027
+[Test set] Average loss: 0.0011, Accuracy: 9336/10000 (93.36%)
+
+Epoch [131]
+[Train set] Loss: 0.0011, Accuracy: 49996/50000 (99.99%)  Epoch time : 17.5286    LR : 0.0025
+[Test set] Average loss: 0.0011, Accuracy: 9326/10000 (93.26%)
+
+Epoch [132]
+[Train set] Loss: 0.0010, Accuracy: 50000/50000 (100.00%)  Epoch time : 17.5261    LR : 0.0023
+[Test set] Average loss: 0.0011, Accuracy: 9324/10000 (93.24%)
+
+Epoch [133]
+[Train set] Loss: 0.0014, Accuracy: 49999/50000 (100.00%)  Epoch time : 17.4979    LR : 0.0021
+[Test set] Average loss: 0.0011, Accuracy: 9324/10000 (93.24%)
+
+Epoch [134]
+[Train set] Loss: 0.0023, Accuracy: 49997/50000 (99.99%)  Epoch time : 17.5265    LR : 0.0019
+[Test set] Average loss: 0.0011, Accuracy: 9322/10000 (93.22%)
+
+Epoch [135]
+[Train set] Loss: 0.0009, Accuracy: 49997/50000 (99.99%)  Epoch time : 17.5094    LR : 0.0017
+[Test set] Average loss: 0.0011, Accuracy: 9326/10000 (93.26%)
+
+Epoch [136]
+[Train set] Loss: 0.0094, Accuracy: 50000/50000 (100.00%)  Epoch time : 17.5201    LR : 0.0015
+[Test set] Average loss: 0.0011, Accuracy: 9316/10000 (93.16%)
+
+Epoch [137]
+[Train set] Loss: 0.0009, Accuracy: 49999/50000 (100.00%)  Epoch time : 17.4749    LR : 0.0013
+[Test set] Average loss: 0.0011, Accuracy: 9339/10000 (93.39%)
+
+Epoch [138]
+[Train set] Loss: 0.0014, Accuracy: 50000/50000 (100.00%)  Epoch time : 17.4823    LR : 0.0012
+[Test set] Average loss: 0.0011, Accuracy: 9331/10000 (93.31%)
+
+Epoch [139]
+[Train set] Loss: 0.0021, Accuracy: 50000/50000 (100.00%)  Epoch time : 17.5469    LR : 0.0010
+[Test set] Average loss: 0.0011, Accuracy: 9327/10000 (93.27%)
+
+Epoch [140]
+[Train set] Loss: 0.0012, Accuracy: 50000/50000 (100.00%)  Epoch time : 17.4942    LR : 0.0008
+[Test set] Average loss: 0.0011, Accuracy: 9337/10000 (93.37%)
+
+Epoch [141]
+[Train set] Loss: 0.0039, Accuracy: 49998/50000 (100.00%)  Epoch time : 17.4776    LR : 0.0006
+[Test set] Average loss: 0.0011, Accuracy: 9325/10000 (93.25%)
+
+Epoch [142]
+[Train set] Loss: 0.0012, Accuracy: 49999/50000 (100.00%)  Epoch time : 17.5101    LR : 0.0005
+[Test set] Average loss: 0.0011, Accuracy: 9328/10000 (93.28%)
+
+Epoch [143]
+[Train set] Loss: 0.0064, Accuracy: 50000/50000 (100.00%)  Epoch time : 17.4928    LR : 0.0004
+[Test set] Average loss: 0.0011, Accuracy: 9334/10000 (93.34%)
+
+Epoch [144]
+[Train set] Loss: 0.0020, Accuracy: 49999/50000 (100.00%)  Epoch time : 17.5212    LR : 0.0003
+[Test set] Average loss: 0.0011, Accuracy: 9333/10000 (93.33%)
+
+Epoch [145]
+[Train set] Loss: 0.0021, Accuracy: 49999/50000 (100.00%)  Epoch time : 17.4888    LR : 0.0002
+[Test set] Average loss: 0.0011, Accuracy: 9332/10000 (93.32%)
+
+Epoch [146]
+[Train set] Loss: 0.0006, Accuracy: 50000/50000 (100.00%)  Epoch time : 17.5342    LR : 0.0001
+[Test set] Average loss: 0.0011, Accuracy: 9337/10000 (93.37%)
+
+Epoch [147]
+[Train set] Loss: 0.0020, Accuracy: 50000/50000 (100.00%)  Epoch time : 17.4562    LR : 0.0000
+[Test set] Average loss: 0.0011, Accuracy: 9331/10000 (93.31%)
+
+Epoch [148]
+[Train set] Loss: 0.0035, Accuracy: 49999/50000 (100.00%)  Epoch time : 17.4937    LR : 0.0000
+[Test set] Average loss: 0.0011, Accuracy: 9325/10000 (93.25%)
+
+Epoch [149]
+[Train set] Loss: 0.0028, Accuracy: 49999/50000 (100.00%)  Epoch time : 17.4963    LR : 0.0000
+[Test set] Average loss: 0.0011, Accuracy: 9337/10000 (93.37%)
+
+Epoch [150]
+[Train set] Loss: 0.0012, Accuracy: 49999/50000 (100.00%)  Epoch time : 17.5185    LR : 0.0023
+[Test set] Average loss: 0.0011, Accuracy: 9328/10000 (93.28%)
+Time ellapsed in training is: 2801.8993833065033
+save dir : ./Result_v3/CosWarmUp/ResNet18/20_15_19

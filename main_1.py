@@ -16,7 +16,7 @@ import utils
 import models
 
 hyper_param_dict = { 
-            'root dir': './Result_v3/CosWarmUp',
+            'root dir': './Result_GCP/Original',
             'project' : 'VGG13',
             'data root' : './Datasets/cifar10',
             'epochs' : 150,
@@ -87,21 +87,21 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 # del model
 
 
-model = models.ResNet_PReLU_18()
+model = models.ResNet18()
 model.to(device)
-project_name = 'ResNet18_PReLU'
+project_name = 'ResNet18'
 hyper_param_dict['project'] = project_name  
 hyper_param_dict['lr'] = 0.03
 hyper_param_dict['batch'] = 256
-hyper_param_dict['weight_decay'] = 5e-5
+hyper_param_dict['weight_decay'] = 5e-4
 print(f'\n\n**************  start new model : {project_name} ******************')
 utils.train(hyper_param_dict, model, device)
 del model
 
-# # run ResNet18
-model = models.ResNet18()
+# # run ResNet34
+model = models.ResNet34()
 model.to(device)
-project_name = 'ResNet18'
+project_name = 'ResNet34'
 hyper_param_dict['project'] = project_name  
 hyper_param_dict['lr'] = 0.03
 hyper_param_dict['batch'] = 256

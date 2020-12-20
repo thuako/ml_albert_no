@@ -39,7 +39,7 @@ def train(hyper_param_dict, model, device):
     else:
         optimizer = torch.optim.SGD(model.parameters(), lr=hyper_param_dict['lr'], momentum=hyper_param_dict['momentum'], 
                                 weight_decay=hyper_param_dict['weight_decay'])
-    scheduler = lr_scheduler(hyper_param_dict, optimizer)
+    # scheduler = lr_scheduler(hyper_param_dict, optimizer)
 
     model.train()
     train_loader = torch.utils.data.DataLoader(dataset=train_dataset, batch_size=hyper_param_dict['batch'], shuffle=True, num_workers= 3)
@@ -88,20 +88,20 @@ def train(hyper_param_dict, model, device):
                 train_loss.backward()
                 optimizer.step()
 
-                if hyper_param_dict['lr scheduler'] == 'cos warm up':
-                    lr_step = epoch + i / iters
-                    scheduler.step(epoch=lr_step)
+                # if hyper_param_dict['lr scheduler'] == 'cos warm up':
+                #     lr_step = epoch + i / iters
+                #     scheduler.step(epoch=lr_step)
                 pred = output.max(1, keepdim=True)[1]
                 correct += pred.eq(labels.view_as(pred)).sum().item()
                 total += labels.size(0)
-            scheduler.step()
+            # scheduler.step()
             
             train_end = time.time()
 
             train_acc = correct / total * 100.
             # print(scheduler.get_lr()[0])
-            print ("\nEpoch [{}]\n[Train set] Loss: {:.4f}, Accuracy: {}/{} ({:.2f}%)  Epoch time : {:.4f} ".format(epoch+1, train_loss.item(), correct, total, train_acc, train_end - train_start), end='')
-            print(f"   LR : {scheduler.get_last_lr()[0]:.4f}")
+            print ("\nEpoch [{}]\n[Train set] Loss: {:.4f}, Accuracy: {}/{} ({:.2f}%)  Epoch time : {:.4f} ".format(epoch+1, train_loss.item(), correct, total, train_acc, train_end - train_start), end='\n')
+            # print(f"   LR : {scheduler.get_last_lr()[0]:.4f}")
             #save train result
             train_loss_list.append(train_loss / total)
             train_acc_list.append(train_acc)
