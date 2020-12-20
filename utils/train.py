@@ -36,7 +36,7 @@ def train(hyper_param_dict, model, device):
     else:
         optimizer = torch.optim.SGD(model.parameters(), lr=hyper_param_dict['lr'], momentum=hyper_param_dict['momentum'], 
                                 weight_decay=hyper_param_dict['weight_decay'])
-    schedulr = lr_scheduler(hyper_param_dict, optimizer)
+    # schedulr = lr_scheduler(hyper_param_dict, optimizer)
 
     model.train()
     train_loader = torch.utils.data.DataLoader(dataset=train_dataset, batch_size=hyper_param_dict['batch'], shuffle=True, num_workers= 2)
