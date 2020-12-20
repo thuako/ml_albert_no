@@ -88,13 +88,15 @@ def train(hyper_param_dict, model, device):
                     total += labels.size(0)
             train_end = time.time()
 
-            print ("Epoch [{}] Loss: {:.4f}  Epoch time : {:.4f}".format(epoch+1, train_loss.item(), train_end - train_start))
+            train_acc = correct / total * 100.
+
+            print ("\nEpoch [{}]\n[Train set] Loss: {:.4f}, Accuracy: {}/{} ({:.2f}%)  Epoch time : {:.4f}".format(epoch+1, train_loss.item(), correct, total, train_acc, train_end - train_start))
             #save train result
             train_loss_list.append(train_loss / total)
-            train_acc_list.append(correct / total * 100.)
+            train_acc_list.append(train_acc)
 
             # start evaluation
-            model.eval()        
+            model.eval()    
             test_loss, test_correct, test_total = 0, 0, 0
             with torch.no_grad():
                     for images, labels in test_loader :
@@ -109,12 +111,12 @@ def train(hyper_param_dict, model, device):
                             test_total += labels.size(0)
             test_acc = 100. * test_correct / test_total
 
-            print('[Test set] Average loss: {:.4f}, Accuracy: {}/{} ({:.2f}%)\n'.format(
+            print('[Test set] Average loss: {:.4f}, Accuracy: {}/{} ({:.2f}%)'.format(
                     test_loss /test_total, test_correct, test_total,
                     test_acc))
             #save test result
             test_loss_list.append(test_loss / test_total)
-            test_acc_list.append(test_correct / test_total * 100.)
+            test_acc_list.append(test_acc)
 
             #save best model
             if best < test_acc:

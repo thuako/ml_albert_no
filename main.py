@@ -22,7 +22,7 @@ if __name__ == "__main__":
                 'data root' : './Datasets/cifar10',
                 'epochs' : 200,
                 'batch' : 256,
-                'lr' : 0.8,
+                'lr' : 0.05,
                 'lr scheduler': 'multi step', # 'multi step', 'step lr', 'cos warm up'
                 'step size': 10, # for step lr
                 'milestones': [25, 50, 75], # for multi step
@@ -39,12 +39,12 @@ if __name__ == "__main__":
     
     
     # run VGG13
-    model = models.VGG13()
-    project_name = 'VGG13'
-    model.to(device)
-    print(f'\n\n**************  start new model : {project_name} ******************')
-    utils.train(hyper_param_dict, model, device)
-    del model
+    # model = models.VGG13()
+    # project_name = 'VGG13'
+    # model.to(device)
+    # print(f'\n\n**************  start new model : {project_name} ******************')
+    # utils.train(hyper_param_dict, model, device)
+    # del model
 
     #run GoogleNet without BN
     model = models.GoogLeNet()
