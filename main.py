@@ -22,7 +22,7 @@ if __name__ == "__main__":
                 'data root' : './Datasets/cifar10',
                 'epochs' : 200,
                 'batch' : 256,
-                'lr' : 0.1,
+                'lr' : 0.05,
                 'lr scheduler': 'multi step', # 'multi step', 'step lr', 'cos warm up'
                 'step size': 10, # for step lr
                 'milestones': [25, 50, 75], # for multi step
