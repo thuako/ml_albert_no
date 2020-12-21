@@ -17,16 +17,18 @@ import models
 
 if __name__ == "__main__":
     hyper_param_dict = { 
-                'root dir': './Result_v3/multi/',
+                'root dir': './Result_GCP/Original',
                 'project' : 'VGG13',
                 'data root' : './Datasets/cifar10',
-                'epochs' : 200,
+                'epochs' : 120,
                 'batch' : 256,
                 'lr' : 0.05,
                 'lr scheduler': 'multi step', # 'multi step', 'step lr', 'cos warm up'
                 'step size': 10, # for step lr
-                'milestones': [25, 50, 75], # for multi step
-                'cycle' : 15, # for cos warm up
+                'milestones': [30, 60, 90], # for multi step
+                'cycle' : 30, # for cos warm up
+                'base min lr' : 0.0001,
+                'gamma' : 0.6,
                 'optimizer': 'SGD',
                 'momentum' : 0.9,   
                 'beta1' : 0.9,
@@ -37,14 +39,25 @@ if __name__ == "__main__":
 
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     
-    
-    # run VGG13
-    model = models.VGG13()
-    project_name = 'VGG13'
+    model = models.GoogLeNet_v3()
     model.to(device)
+    project_name = 'GoogLeNet_ResNet_cos_v3'
+    hyper_param_dict['lr scheduler'] = 'cos warm up'
+    hyper_param_dict['project'] = project_name
+    hyper_param_dict['batch'] = 200
+    hyper_param_dict['epochs'] = 120
+    hyper_param_dict['lr'] = 0.05
     print(f'\n\n**************  start new model : {project_name} ******************')
     utils.train(hyper_param_dict, model, device)
     del model
+
+    # run VGG13
+    # model = models.VGG13()
+    # project_name = 'VGG13'
+    # model.to(device)
+    # print(f'\n\n**************  start new model : {project_name} ******************')
+    # utils.train(hyper_param_dict, model, device)
+    # del model
 
     #run GoogleNet without BN
     # model = models.GoogLeNet()
@@ -58,38 +71,65 @@ if __name__ == "__main__":
     # utils.train(hyper_param_dict, model, device)
     # del model
     
-    #run GoogleNet with BN
-    model = models.GoogLeNet_w_bn()
-    model.to(device)
-    project_name = 'GoogLeNet_w_bn'
-    hyper_param_dict['project'] = project_name
-    hyper_param_dict['batch'] = 200
-    hyper_param_dict['epochs'] = 100
-    hyper_param_dict['lr'] = 0.05
-    print(f'\n\n**************  start new model : {project_name} ******************')
-    utils.train(hyper_param_dict, model, device)
-    del model
+    # model = models.GoogLeNet_v2()
+    # model.to(device)
+    # project_name = 'GoogLeNet_dropout_ResNet_cos_v2'
+    # hyper_param_dict['lr scheduler'] = 'cos warm up'
+    # hyper_param_dict['project'] = project_name
+    # hyper_param_dict['batch'] = 200
+    # hyper_param_dict['epochs'] = 120
+    # hyper_param_dict['lr'] = 0.05
+    # print(f'\n\n**************  start new model : {project_name} ******************')
+    # utils.train(hyper_param_dict, model, device)
+    # del model
 
-    # run ResNet18
-    model = models.ResNet18()
-    model.to(device)
-    project_name = 'ResNet18'
-    hyper_param_dict['project'] = project_name  
-    hyper_param_dict['batch'] = 256
-    hyper_param_dict['lr'] = 0.03
-    hyper_param_dict['batch'] = 256
-    print(f'\n\n**************  start new model : {project_name} ******************')
-    utils.train(hyper_param_dict, model, device)
-    del model
+    # model = models.GoogLeNet_v2()
+    # model.to(device)
+    # project_name = 'GoogLeNet_dropout_ResNet_multi_v2'
+    # hyper_param_dict['lr scheduler'] = 'multi step'
+    # hyper_param_dict['project'] = project_name
+    # hyper_param_dict['batch'] = 200
+    # hyper_param_dict['epochs'] = 120
+    # hyper_param_dict['lr'] = 0.05
+    # print(f'\n\n**************  start new model : {project_name} ******************')
+    # utils.train(hyper_param_dict, model, device)
+    # del model
 
-    # run ResNet34
-    model = models.ResNet34()
-    model.to(device)
-    project_name = 'ResNet34'
-    hyper_param_dict['project'] = project_name
-    print(f'\n\n**************  start new model : {project_name} ******************')
-    utils.train(hyper_param_dict, model, device)
-    del model
+
+
+
+    # #run GoogleNet with BN
+    # model = models.GoogLeNet_v1()
+    # model.to(device)
+    # project_name = 'GoogLeNet_dropout_v1'
+    # hyper_param_dict['lr scheduler'] = 'cos warm up'
+    # hyper_param_dict['project'] = project_name
+    # hyper_param_dict['batch'] = 200
+    # hyper_param_dict['epochs'] = 120
+    # hyper_param_dict['lr'] = 0.05
+    # print(f'\n\n**************  start new model : {project_name} ******************')
+    # utils.train(hyper_param_dict, model, device)
+    # del model
+    # # run ResNet18
+    # model = models.ResNet18()
+    # model.to(device)
+    # project_name = 'ResNet18'
+    # hyper_param_dict['project'] = project_name  
+    # hyper_param_dict['batch'] = 256
+    # hyper_param_dict['lr'] = 0.03
+    # hyper_param_dict['batch'] = 256
+    # print(f'\n\n**************  start new model : {project_name} ******************')
+    # utils.train(hyper_param_dict, model, device)
+    # del model
+
+    # # run ResNet34
+    # model = models.ResNet34()
+    # model.to(device)
+    # project_name = 'ResNet34'
+    # hyper_param_dict['project'] = project_name
+    # print(f'\n\n**************  start new model : {project_name} ******************')
+    # utils.train(hyper_param_dict, model, device)
+    # del model
 
     # run ResNet50
     # model = models.ResNet50()

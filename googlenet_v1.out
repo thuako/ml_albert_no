@@ -1,0 +1,105 @@
+nohup: ignoring input
+
+
+**************  start new model : GoogLeNet_dropout_v1 ******************
+Files already downloaded and verified
+
+Epoch [1]
+[Train set] Loss: 2.3981, Accuracy: 6650/50000 (13.30%)  Epoch time : 54.5632 
+[Test set] Average loss: 0.0109, Accuracy: 1688/10000 (16.88%)
+save by ./Result_GCP/Original/GoogLeNet_dropout_v1/20_18_47/GoogLeNet_dropout_v1_best.pt
+
+Epoch [2]
+[Train set] Loss: 2.1323, Accuracy: 9978/50000 (19.96%)  Epoch time : 53.3890 
+[Test set] Average loss: 0.0100, Accuracy: 2519/10000 (25.19%)
+save by ./Result_GCP/Original/GoogLeNet_dropout_v1/20_18_47/GoogLeNet_dropout_v1_best.pt
+
+Epoch [3]
+[Train set] Loss: 2.0380, Accuracy: 12043/50000 (24.09%)  Epoch time : 53.4586 
+[Test set] Average loss: 0.0091, Accuracy: 3324/10000 (33.24%)
+save by ./Result_GCP/Original/GoogLeNet_dropout_v1/20_18_47/GoogLeNet_dropout_v1_best.pt
+
+Epoch [4]
+[Train set] Loss: 1.7078, Accuracy: 14516/50000 (29.03%)  Epoch time : 53.4335 
+[Test set] Average loss: 0.0085, Accuracy: 3708/10000 (37.08%)
+save by ./Result_GCP/Original/GoogLeNet_dropout_v1/20_18_47/GoogLeNet_dropout_v1_best.pt
+
+Epoch [5]
+[Train set] Loss: 1.7861, Accuracy: 16229/50000 (32.46%)  Epoch time : 53.4136 
+[Test set] Average loss: 0.0081, Accuracy: 3909/10000 (39.09%)
+save by ./Result_GCP/Original/GoogLeNet_dropout_v1/20_18_47/GoogLeNet_dropout_v1_best.pt
+
+Epoch [6]
+[Train set] Loss: 1.6531, Accuracy: 17687/50000 (35.37%)  Epoch time : 53.4375 
+[Test set] Average loss: 0.0079, Accuracy: 4109/10000 (41.09%)
+save by ./Result_GCP/Original/GoogLeNet_dropout_v1/20_18_47/GoogLeNet_dropout_v1_best.pt
+
+Epoch [7]
+[Train set] Loss: 1.8210, Accuracy: 19269/50000 (38.54%)  Epoch time : 53.3508 
+[Test set] Average loss: 0.0072, Accuracy: 4675/10000 (46.75%)
+save by ./Result_GCP/Original/GoogLeNet_dropout_v1/20_18_47/GoogLeNet_dropout_v1_best.pt
+
+Epoch [8]
+[Train set] Loss: 1.5776, Accuracy: 20818/50000 (41.64%)  Epoch time : 53.3651 
+[Test set] Average loss: 0.0069, Accuracy: 4851/10000 (48.51%)
+save by ./Result_GCP/Original/GoogLeNet_dropout_v1/20_18_47/GoogLeNet_dropout_v1_best.pt
+
+Epoch [9]
+[Train set] Loss: 1.4499, Accuracy: 22295/50000 (44.59%)  Epoch time : 53.3909 
+[Test set] Average loss: 0.0064, Accuracy: 5369/10000 (53.69%)
+save by ./Result_GCP/Original/GoogLeNet_dropout_v1/20_18_47/GoogLeNet_dropout_v1_best.pt
+
+Epoch [10]
+[Train set] Loss: 1.4231, Accuracy: 23864/50000 (47.73%)  Epoch time : 53.3819 
+[Test set] Average loss: 0.0061, Accuracy: 5588/10000 (55.88%)
+save by ./Result_GCP/Original/GoogLeNet_dropout_v1/20_18_47/GoogLeNet_dropout_v1_best.pt
+
+Epoch [11]
+[Train set] Loss: 1.3383, Accuracy: 25394/50000 (50.79%)  Epoch time : 53.3434 
+[Test set] Average loss: 0.0055, Accuracy: 6041/10000 (60.41%)
+save by ./Result_GCP/Original/GoogLeNet_dropout_v1/20_18_47/GoogLeNet_dropout_v1_best.pt
+
+Epoch [12]
+[Train set] Loss: 1.4020, Accuracy: 26559/50000 (53.12%)  Epoch time : 53.4249 
+[Test set] Average loss: 0.0052, Accuracy: 6312/10000 (63.12%)
+save by ./Result_GCP/Original/GoogLeNet_dropout_v1/20_18_47/GoogLeNet_dropout_v1_best.pt
+
+Epoch [13]
+[Train set] Loss: 1.0923, Accuracy: 28071/50000 (56.14%)  Epoch time : 53.3810 
+[Test set] Average loss: 0.0051, Accuracy: 6339/10000 (63.39%)
+save by ./Result_GCP/Original/GoogLeNet_dropout_v1/20_18_47/GoogLeNet_dropout_v1_best.pt
+
+Epoch [14]
+[Train set] Loss: 1.1435, Accuracy: 29064/50000 (58.13%)  Epoch time : 53.4010 
+[Test set] Average loss: 0.0046, Accuracy: 6757/10000 (67.57%)
+save by ./Result_GCP/Original/GoogLeNet_dropout_v1/20_18_47/GoogLeNet_dropout_v1_best.pt
+
+Epoch [15]
+[Train set] Loss: 1.0716, Accuracy: 30214/50000 (60.43%)  Epoch time : 53.5409 
+[Test set] Average loss: 0.0046, Accuracy: 6763/10000 (67.63%)
+save by ./Result_GCP/Original/GoogLeNet_dropout_v1/20_18_47/GoogLeNet_dropout_v1_best.pt
+
+Epoch [16]
+[Train set] Loss: 1.0299, Accuracy: 31442/50000 (62.88%)  Epoch time : 53.4200 
+[Test set] Average loss: 0.0042, Accuracy: 6998/10000 (69.98%)
+save by ./Result_GCP/Original/GoogLeNet_dropout_v1/20_18_47/GoogLeNet_dropout_v1_best.pt
+
+Epoch [17]
+[Train set] Loss: 0.9612, Accuracy: 32242/50000 (64.48%)  Epoch time : 53.3870 
+[Test set] Average loss: 0.0039, Accuracy: 7217/10000 (72.17%)
+save by ./Result_GCP/Original/GoogLeNet_dropout_v1/20_18_47/GoogLeNet_dropout_v1_best.pt
+
+Epoch [18]
+[Train set] Loss: 0.9322, Accuracy: 33396/50000 (66.79%)  Epoch time : 53.4689 
+[Test set] Average loss: 0.0038, Accuracy: 7375/10000 (73.75%)
+save by ./Result_GCP/Original/GoogLeNet_dropout_v1/20_18_47/GoogLeNet_dropout_v1_best.pt
+Traceback (most recent call last):
+  File "main.py", line 72, in <module>
+    utils.train(hyper_param_dict, model, device)
+  File "/home/tjrgh/Project/ML_albert_no/utils/train.py", line 88, in train
+    train_loss.backward()
+  File "/opt/conda/lib/python3.7/site-packages/torch/tensor.py", line 184, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph)
+  File "/opt/conda/lib/python3.7/site-packages/torch/autograd/__init__.py", line 123, in backward
+    allow_unreachable=True)  # allow_unreachable flag
+KeyboardInterrupt

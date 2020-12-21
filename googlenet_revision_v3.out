@@ -1,0 +1,656 @@
+nohup: ignoring input
+
+
+**************  start new model : GoogLeNet_ResNet_cos_v3 ******************
+Files already downloaded and verified
+SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.05
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0005
+)
+-1
+False
+
+Epoch [1]
+[Train set] Loss: 1.7759, Accuracy: 11421/50000 (22.84%)  Epoch time : 63.6344 
+   LR : 0.0499
+[Test set] Average loss: 0.0092, Accuracy: 3341/10000 (33.41%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [2]
+[Train set] Loss: 1.4070, Accuracy: 21189/50000 (42.38%)  Epoch time : 62.4844 
+   LR : 0.0495
+[Test set] Average loss: 0.0072, Accuracy: 4710/10000 (47.10%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [3]
+[Train set] Loss: 1.2012, Accuracy: 27635/50000 (55.27%)  Epoch time : 62.4580 
+   LR : 0.0488
+[Test set] Average loss: 0.0059, Accuracy: 5888/10000 (58.88%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [4]
+[Train set] Loss: 0.8622, Accuracy: 32812/50000 (65.62%)  Epoch time : 62.3505 
+   LR : 0.0478
+[Test set] Average loss: 0.0046, Accuracy: 6750/10000 (67.50%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [5]
+[Train set] Loss: 0.8338, Accuracy: 35970/50000 (71.94%)  Epoch time : 62.4685 
+   LR : 0.0467
+[Test set] Average loss: 0.0040, Accuracy: 7176/10000 (71.76%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [6]
+[Train set] Loss: 0.7325, Accuracy: 38460/50000 (76.92%)  Epoch time : 62.4701 
+   LR : 0.0452
+[Test set] Average loss: 0.0044, Accuracy: 6922/10000 (69.22%)
+
+Epoch [7]
+[Train set] Loss: 0.6694, Accuracy: 40068/50000 (80.14%)  Epoch time : 62.4147 
+   LR : 0.0436
+[Test set] Average loss: 0.0036, Accuracy: 7568/10000 (75.68%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [8]
+[Train set] Loss: 0.4738, Accuracy: 40967/50000 (81.93%)  Epoch time : 62.3730 
+   LR : 0.0417
+[Test set] Average loss: 0.0038, Accuracy: 7453/10000 (74.53%)
+
+Epoch [9]
+[Train set] Loss: 0.4540, Accuracy: 41974/50000 (83.95%)  Epoch time : 62.3814 
+   LR : 0.0397
+[Test set] Average loss: 0.0026, Accuracy: 8175/10000 (81.75%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [10]
+[Train set] Loss: 0.3967, Accuracy: 42682/50000 (85.36%)  Epoch time : 62.3836 
+   LR : 0.0375
+[Test set] Average loss: 0.0026, Accuracy: 8200/10000 (82.00%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [11]
+[Train set] Loss: 0.3254, Accuracy: 43403/50000 (86.81%)  Epoch time : 62.4811 
+   LR : 0.0352
+[Test set] Average loss: 0.0023, Accuracy: 8494/10000 (84.94%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [12]
+[Train set] Loss: 0.2850, Accuracy: 43939/50000 (87.88%)  Epoch time : 62.4446 
+   LR : 0.0327
+[Test set] Average loss: 0.0031, Accuracy: 7985/10000 (79.85%)
+
+Epoch [13]
+[Train set] Loss: 0.3455, Accuracy: 44432/50000 (88.86%)  Epoch time : 62.4463 
+   LR : 0.0302
+[Test set] Average loss: 0.0021, Accuracy: 8621/10000 (86.21%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [14]
+[Train set] Loss: 0.2837, Accuracy: 44969/50000 (89.94%)  Epoch time : 62.4653 
+   LR : 0.0276
+[Test set] Average loss: 0.0025, Accuracy: 8398/10000 (83.98%)
+
+Epoch [15]
+[Train set] Loss: 0.3059, Accuracy: 45632/50000 (91.26%)  Epoch time : 62.4673 
+   LR : 0.0250
+[Test set] Average loss: 0.0020, Accuracy: 8679/10000 (86.79%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [16]
+[Train set] Loss: 0.2462, Accuracy: 46018/50000 (92.04%)  Epoch time : 62.5383 
+   LR : 0.0224
+[Test set] Average loss: 0.0021, Accuracy: 8630/10000 (86.30%)
+
+Epoch [17]
+[Train set] Loss: 0.1868, Accuracy: 46500/50000 (93.00%)  Epoch time : 62.4247 
+   LR : 0.0198
+[Test set] Average loss: 0.0019, Accuracy: 8796/10000 (87.96%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [18]
+[Train set] Loss: 0.1625, Accuracy: 46978/50000 (93.96%)  Epoch time : 62.4969 
+   LR : 0.0173
+[Test set] Average loss: 0.0022, Accuracy: 8681/10000 (86.81%)
+
+Epoch [19]
+[Train set] Loss: 0.1702, Accuracy: 47417/50000 (94.83%)  Epoch time : 62.4252 
+   LR : 0.0148
+[Test set] Average loss: 0.0019, Accuracy: 8832/10000 (88.32%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [20]
+[Train set] Loss: 0.1357, Accuracy: 47860/50000 (95.72%)  Epoch time : 62.4961 
+   LR : 0.0125
+[Test set] Average loss: 0.0018, Accuracy: 8961/10000 (89.61%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [21]
+[Train set] Loss: 0.1106, Accuracy: 48210/50000 (96.42%)  Epoch time : 62.4479 
+   LR : 0.0103
+[Test set] Average loss: 0.0017, Accuracy: 8967/10000 (89.67%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [22]
+[Train set] Loss: 0.0943, Accuracy: 48683/50000 (97.37%)  Epoch time : 62.5238 
+   LR : 0.0083
+[Test set] Average loss: 0.0017, Accuracy: 9010/10000 (90.10%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [23]
+[Train set] Loss: 0.0614, Accuracy: 48989/50000 (97.98%)  Epoch time : 62.4048 
+   LR : 0.0064
+[Test set] Average loss: 0.0015, Accuracy: 9123/10000 (91.23%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [24]
+[Train set] Loss: 0.0478, Accuracy: 49211/50000 (98.42%)  Epoch time : 62.4744 
+   LR : 0.0048
+[Test set] Average loss: 0.0015, Accuracy: 9101/10000 (91.01%)
+
+Epoch [25]
+[Train set] Loss: 0.0306, Accuracy: 49424/50000 (98.85%)  Epoch time : 62.4754 
+   LR : 0.0034
+[Test set] Average loss: 0.0015, Accuracy: 9130/10000 (91.30%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [26]
+[Train set] Loss: 0.0212, Accuracy: 49577/50000 (99.15%)  Epoch time : 62.5390 
+   LR : 0.0022
+[Test set] Average loss: 0.0015, Accuracy: 9138/10000 (91.38%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [27]
+[Train set] Loss: 0.0233, Accuracy: 49681/50000 (99.36%)  Epoch time : 62.4264 
+   LR : 0.0012
+[Test set] Average loss: 0.0015, Accuracy: 9140/10000 (91.40%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [28]
+[Train set] Loss: 0.0096, Accuracy: 49725/50000 (99.45%)  Epoch time : 62.3979 
+   LR : 0.0005
+[Test set] Average loss: 0.0015, Accuracy: 9144/10000 (91.44%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [29]
+[Train set] Loss: 0.0202, Accuracy: 49769/50000 (99.54%)  Epoch time : 62.3958 
+   LR : 0.0001
+[Test set] Average loss: 0.0015, Accuracy: 9146/10000 (91.46%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [30]
+[Train set] Loss: 0.0397, Accuracy: 49742/50000 (99.48%)  Epoch time : 62.4397 
+   LR : 0.0000
+[Test set] Average loss: 0.0015, Accuracy: 9148/10000 (91.48%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [31]
+[Train set] Loss: 0.3158, Accuracy: 45180/50000 (90.36%)  Epoch time : 62.4400 
+   LR : 0.0299
+[Test set] Average loss: 0.0026, Accuracy: 8318/10000 (83.18%)
+
+Epoch [32]
+[Train set] Loss: 0.3300, Accuracy: 45924/50000 (91.85%)  Epoch time : 62.4076 
+   LR : 0.0297
+[Test set] Average loss: 0.0026, Accuracy: 8426/10000 (84.26%)
+
+Epoch [33]
+[Train set] Loss: 0.1871, Accuracy: 46222/50000 (92.44%)  Epoch time : 62.5332 
+   LR : 0.0293
+[Test set] Average loss: 0.0029, Accuracy: 8214/10000 (82.14%)
+
+Epoch [34]
+[Train set] Loss: 0.2288, Accuracy: 46514/50000 (93.03%)  Epoch time : 62.4591 
+   LR : 0.0287
+[Test set] Average loss: 0.0023, Accuracy: 8520/10000 (85.20%)
+
+Epoch [35]
+[Train set] Loss: 0.1797, Accuracy: 46772/50000 (93.54%)  Epoch time : 62.5272 
+   LR : 0.0280
+[Test set] Average loss: 0.0027, Accuracy: 8428/10000 (84.28%)
+
+Epoch [36]
+[Train set] Loss: 0.1343, Accuracy: 47057/50000 (94.11%)  Epoch time : 62.4514 
+   LR : 0.0271
+[Test set] Average loss: 0.0031, Accuracy: 8284/10000 (82.84%)
+
+Epoch [37]
+[Train set] Loss: 0.2173, Accuracy: 47240/50000 (94.48%)  Epoch time : 62.4290 
+   LR : 0.0262
+[Test set] Average loss: 0.0025, Accuracy: 8533/10000 (85.33%)
+
+Epoch [38]
+[Train set] Loss: 0.1165, Accuracy: 47461/50000 (94.92%)  Epoch time : 62.3873 
+   LR : 0.0250
+[Test set] Average loss: 0.0021, Accuracy: 8691/10000 (86.91%)
+
+Epoch [39]
+[Train set] Loss: 0.1518, Accuracy: 47664/50000 (95.33%)  Epoch time : 62.4032 
+   LR : 0.0238
+[Test set] Average loss: 0.0025, Accuracy: 8623/10000 (86.23%)
+
+Epoch [40]
+[Train set] Loss: 0.1813, Accuracy: 47915/50000 (95.83%)  Epoch time : 62.5038 
+   LR : 0.0225
+[Test set] Average loss: 0.0018, Accuracy: 8934/10000 (89.34%)
+
+Epoch [41]
+[Train set] Loss: 0.0987, Accuracy: 48228/50000 (96.46%)  Epoch time : 62.5070 
+   LR : 0.0211
+[Test set] Average loss: 0.0023, Accuracy: 8727/10000 (87.27%)
+
+Epoch [42]
+[Train set] Loss: 0.0770, Accuracy: 48373/50000 (96.75%)  Epoch time : 62.5935 
+   LR : 0.0196
+[Test set] Average loss: 0.0024, Accuracy: 8731/10000 (87.31%)
+
+Epoch [43]
+[Train set] Loss: 0.1582, Accuracy: 48553/50000 (97.11%)  Epoch time : 62.4551 
+   LR : 0.0181
+[Test set] Average loss: 0.0022, Accuracy: 8811/10000 (88.11%)
+
+Epoch [44]
+[Train set] Loss: 0.0689, Accuracy: 48906/50000 (97.81%)  Epoch time : 62.5760 
+   LR : 0.0166
+[Test set] Average loss: 0.0016, Accuracy: 9117/10000 (91.17%)
+
+Epoch [45]
+[Train set] Loss: 0.0564, Accuracy: 49076/50000 (98.15%)  Epoch time : 62.4581 
+   LR : 0.0150
+[Test set] Average loss: 0.0019, Accuracy: 8963/10000 (89.63%)
+
+Epoch [46]
+[Train set] Loss: 0.0434, Accuracy: 49282/50000 (98.56%)  Epoch time : 62.4510 
+   LR : 0.0134
+[Test set] Average loss: 0.0018, Accuracy: 9063/10000 (90.63%)
+
+Epoch [47]
+[Train set] Loss: 0.0220, Accuracy: 49476/50000 (98.95%)  Epoch time : 62.4669 
+   LR : 0.0119
+[Test set] Average loss: 0.0016, Accuracy: 9128/10000 (91.28%)
+
+Epoch [48]
+[Train set] Loss: 0.0394, Accuracy: 49615/50000 (99.23%)  Epoch time : 62.5484 
+   LR : 0.0104
+[Test set] Average loss: 0.0015, Accuracy: 9207/10000 (92.07%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [49]
+[Train set] Loss: 0.0158, Accuracy: 49752/50000 (99.50%)  Epoch time : 62.5104 
+   LR : 0.0089
+[Test set] Average loss: 0.0016, Accuracy: 9182/10000 (91.82%)
+
+Epoch [50]
+[Train set] Loss: 0.0099, Accuracy: 49846/50000 (99.69%)  Epoch time : 62.4469 
+   LR : 0.0075
+[Test set] Average loss: 0.0015, Accuracy: 9248/10000 (92.48%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [51]
+[Train set] Loss: 0.0062, Accuracy: 49871/50000 (99.74%)  Epoch time : 62.4843 
+   LR : 0.0062
+[Test set] Average loss: 0.0014, Accuracy: 9243/10000 (92.43%)
+
+Epoch [52]
+[Train set] Loss: 0.0069, Accuracy: 49931/50000 (99.86%)  Epoch time : 62.4274 
+   LR : 0.0050
+[Test set] Average loss: 0.0014, Accuracy: 9248/10000 (92.48%)
+
+Epoch [53]
+[Train set] Loss: 0.0200, Accuracy: 49943/50000 (99.89%)  Epoch time : 62.5208 
+   LR : 0.0039
+[Test set] Average loss: 0.0014, Accuracy: 9275/10000 (92.75%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [54]
+[Train set] Loss: 0.0034, Accuracy: 49956/50000 (99.91%)  Epoch time : 62.4319 
+   LR : 0.0029
+[Test set] Average loss: 0.0014, Accuracy: 9259/10000 (92.59%)
+
+Epoch [55]
+[Train set] Loss: 0.0035, Accuracy: 49974/50000 (99.95%)  Epoch time : 62.5208 
+   LR : 0.0020
+[Test set] Average loss: 0.0014, Accuracy: 9276/10000 (92.76%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [56]
+[Train set] Loss: 0.0033, Accuracy: 49965/50000 (99.93%)  Epoch time : 62.4456 
+   LR : 0.0013
+[Test set] Average loss: 0.0014, Accuracy: 9284/10000 (92.84%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [57]
+[Train set] Loss: 0.0086, Accuracy: 49971/50000 (99.94%)  Epoch time : 62.4723 
+   LR : 0.0007
+[Test set] Average loss: 0.0014, Accuracy: 9277/10000 (92.77%)
+
+Epoch [58]
+[Train set] Loss: 0.0048, Accuracy: 49970/50000 (99.94%)  Epoch time : 62.4642 
+   LR : 0.0003
+[Test set] Average loss: 0.0014, Accuracy: 9282/10000 (92.82%)
+
+Epoch [59]
+[Train set] Loss: 0.0059, Accuracy: 49971/50000 (99.94%)  Epoch time : 62.5166 
+   LR : 0.0001
+[Test set] Average loss: 0.0014, Accuracy: 9281/10000 (92.81%)
+
+Epoch [60]
+[Train set] Loss: 0.0050, Accuracy: 49976/50000 (99.95%)  Epoch time : 62.4151 
+   LR : 0.0000
+[Test set] Average loss: 0.0014, Accuracy: 9286/10000 (92.86%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [61]
+[Train set] Loss: 0.0706, Accuracy: 49028/50000 (98.06%)  Epoch time : 62.4624 
+   LR : 0.0180
+[Test set] Average loss: 0.0030, Accuracy: 8433/10000 (84.33%)
+
+Epoch [62]
+[Train set] Loss: 0.1251, Accuracy: 48152/50000 (96.30%)  Epoch time : 62.4544 
+   LR : 0.0178
+[Test set] Average loss: 0.0023, Accuracy: 8750/10000 (87.50%)
+
+Epoch [63]
+[Train set] Loss: 0.1213, Accuracy: 48547/50000 (97.09%)  Epoch time : 62.5238 
+   LR : 0.0176
+[Test set] Average loss: 0.0024, Accuracy: 8714/10000 (87.14%)
+
+Epoch [64]
+[Train set] Loss: 0.1011, Accuracy: 48673/50000 (97.35%)  Epoch time : 62.4997 
+   LR : 0.0172
+[Test set] Average loss: 0.0019, Accuracy: 8942/10000 (89.42%)
+
+Epoch [65]
+[Train set] Loss: 0.0974, Accuracy: 48734/50000 (97.47%)  Epoch time : 62.4669 
+   LR : 0.0168
+[Test set] Average loss: 0.0021, Accuracy: 8892/10000 (88.92%)
+
+Epoch [66]
+[Train set] Loss: 0.0670, Accuracy: 48762/50000 (97.52%)  Epoch time : 62.4330 
+   LR : 0.0163
+[Test set] Average loss: 0.0025, Accuracy: 8649/10000 (86.49%)
+
+Epoch [67]
+[Train set] Loss: 0.0458, Accuracy: 48994/50000 (97.99%)  Epoch time : 62.5097 
+   LR : 0.0157
+[Test set] Average loss: 0.0023, Accuracy: 8824/10000 (88.24%)
+
+Epoch [68]
+[Train set] Loss: 0.0610, Accuracy: 49112/50000 (98.22%)  Epoch time : 62.5502 
+   LR : 0.0150
+[Test set] Average loss: 0.0019, Accuracy: 8997/10000 (89.97%)
+
+Epoch [69]
+[Train set] Loss: 0.0515, Accuracy: 49167/50000 (98.33%)  Epoch time : 62.4678 
+   LR : 0.0143
+[Test set] Average loss: 0.0017, Accuracy: 9079/10000 (90.79%)
+
+Epoch [70]
+[Train set] Loss: 0.0348, Accuracy: 49319/50000 (98.64%)  Epoch time : 62.4198 
+   LR : 0.0135
+[Test set] Average loss: 0.0017, Accuracy: 9121/10000 (91.21%)
+
+Epoch [71]
+[Train set] Loss: 0.0285, Accuracy: 49482/50000 (98.96%)  Epoch time : 62.4807 
+   LR : 0.0127
+[Test set] Average loss: 0.0018, Accuracy: 9072/10000 (90.72%)
+
+Epoch [72]
+[Train set] Loss: 0.0325, Accuracy: 49575/50000 (99.15%)  Epoch time : 62.4958 
+   LR : 0.0118
+[Test set] Average loss: 0.0017, Accuracy: 9109/10000 (91.09%)
+
+Epoch [73]
+[Train set] Loss: 0.0191, Accuracy: 49670/50000 (99.34%)  Epoch time : 62.4993 
+   LR : 0.0109
+[Test set] Average loss: 0.0015, Accuracy: 9185/10000 (91.85%)
+
+Epoch [74]
+[Train set] Loss: 0.0118, Accuracy: 49745/50000 (99.49%)  Epoch time : 62.4818 
+   LR : 0.0099
+[Test set] Average loss: 0.0017, Accuracy: 9154/10000 (91.54%)
+
+Epoch [75]
+[Train set] Loss: 0.0162, Accuracy: 49826/50000 (99.65%)  Epoch time : 62.4661 
+   LR : 0.0090
+[Test set] Average loss: 0.0015, Accuracy: 9242/10000 (92.42%)
+
+Epoch [76]
+[Train set] Loss: 0.0061, Accuracy: 49870/50000 (99.74%)  Epoch time : 62.5650 
+   LR : 0.0081
+[Test set] Average loss: 0.0014, Accuracy: 9265/10000 (92.65%)
+
+Epoch [77]
+[Train set] Loss: 0.0073, Accuracy: 49929/50000 (99.86%)  Epoch time : 62.5308 
+   LR : 0.0071
+[Test set] Average loss: 0.0014, Accuracy: 9294/10000 (92.94%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [78]
+[Train set] Loss: 0.0043, Accuracy: 49928/50000 (99.86%)  Epoch time : 62.4700 
+   LR : 0.0062
+[Test set] Average loss: 0.0014, Accuracy: 9281/10000 (92.81%)
+
+Epoch [79]
+[Train set] Loss: 0.0052, Accuracy: 49953/50000 (99.91%)  Epoch time : 62.4788 
+   LR : 0.0053
+[Test set] Average loss: 0.0014, Accuracy: 9306/10000 (93.06%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [80]
+[Train set] Loss: 0.0021, Accuracy: 49971/50000 (99.94%)  Epoch time : 62.5596 
+   LR : 0.0045
+[Test set] Average loss: 0.0014, Accuracy: 9308/10000 (93.08%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [81]
+[Train set] Loss: 0.0034, Accuracy: 49982/50000 (99.96%)  Epoch time : 62.4958 
+   LR : 0.0037
+[Test set] Average loss: 0.0014, Accuracy: 9313/10000 (93.13%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [82]
+[Train set] Loss: 0.0041, Accuracy: 49971/50000 (99.94%)  Epoch time : 62.4962 
+   LR : 0.0030
+[Test set] Average loss: 0.0014, Accuracy: 9313/10000 (93.13%)
+
+Epoch [83]
+[Train set] Loss: 0.0034, Accuracy: 49986/50000 (99.97%)  Epoch time : 62.5488 
+   LR : 0.0023
+[Test set] Average loss: 0.0014, Accuracy: 9316/10000 (93.16%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [84]
+[Train set] Loss: 0.0018, Accuracy: 49993/50000 (99.99%)  Epoch time : 62.5576 
+   LR : 0.0017
+[Test set] Average loss: 0.0014, Accuracy: 9327/10000 (93.27%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [85]
+[Train set] Loss: 0.0019, Accuracy: 49995/50000 (99.99%)  Epoch time : 62.5709 
+   LR : 0.0012
+[Test set] Average loss: 0.0013, Accuracy: 9328/10000 (93.28%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [86]
+[Train set] Loss: 0.0024, Accuracy: 49989/50000 (99.98%)  Epoch time : 62.4465 
+   LR : 0.0008
+[Test set] Average loss: 0.0013, Accuracy: 9319/10000 (93.19%)
+
+Epoch [87]
+[Train set] Loss: 0.0020, Accuracy: 49991/50000 (99.98%)  Epoch time : 62.5510 
+   LR : 0.0004
+[Test set] Average loss: 0.0013, Accuracy: 9331/10000 (93.31%)
+save by ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42/GoogLeNet_ResNet_cos_v3_best.pt
+
+Epoch [88]
+[Train set] Loss: 0.0019, Accuracy: 49988/50000 (99.98%)  Epoch time : 62.5758 
+   LR : 0.0002
+[Test set] Average loss: 0.0013, Accuracy: 9331/10000 (93.31%)
+
+Epoch [89]
+[Train set] Loss: 0.0021, Accuracy: 49990/50000 (99.98%)  Epoch time : 62.4898 
+   LR : 0.0000
+[Test set] Average loss: 0.0013, Accuracy: 9330/10000 (93.30%)
+
+Epoch [90]
+[Train set] Loss: 0.0031, Accuracy: 49994/50000 (99.99%)  Epoch time : 62.4575 
+   LR : 0.0000
+[Test set] Average loss: 0.0013, Accuracy: 9325/10000 (93.25%)
+
+Epoch [91]
+[Train set] Loss: 0.0030, Accuracy: 49980/50000 (99.96%)  Epoch time : 62.5342 
+   LR : 0.0108
+[Test set] Average loss: 0.0015, Accuracy: 9297/10000 (92.97%)
+
+Epoch [92]
+[Train set] Loss: 0.0120, Accuracy: 49956/50000 (99.91%)  Epoch time : 62.5558 
+   LR : 0.0107
+[Test set] Average loss: 0.0016, Accuracy: 9201/10000 (92.01%)
+
+Epoch [93]
+[Train set] Loss: 0.0125, Accuracy: 49877/50000 (99.75%)  Epoch time : 62.5068 
+   LR : 0.0105
+[Test set] Average loss: 0.0016, Accuracy: 9168/10000 (91.68%)
+
+Epoch [94]
+[Train set] Loss: 0.0204, Accuracy: 49789/50000 (99.58%)  Epoch time : 62.5490 
+   LR : 0.0103
+[Test set] Average loss: 0.0018, Accuracy: 9059/10000 (90.59%)
+
+Epoch [95]
+[Train set] Loss: 0.0296, Accuracy: 49714/50000 (99.43%)  Epoch time : 62.4684 
+   LR : 0.0101
+[Test set] Average loss: 0.0019, Accuracy: 8995/10000 (89.95%)
+
+Epoch [96]
+[Train set] Loss: 0.0233, Accuracy: 49681/50000 (99.36%)  Epoch time : 62.4947 
+   LR : 0.0098
+[Test set] Average loss: 0.0021, Accuracy: 9005/10000 (90.05%)
+
+Epoch [97]
+[Train set] Loss: 0.0245, Accuracy: 49694/50000 (99.39%)  Epoch time : 62.4879 
+   LR : 0.0094
+[Test set] Average loss: 0.0019, Accuracy: 9011/10000 (90.11%)
+
+Epoch [98]
+[Train set] Loss: 0.0203, Accuracy: 49558/50000 (99.12%)  Epoch time : 62.5698 
+   LR : 0.0090
+[Test set] Average loss: 0.0017, Accuracy: 9090/10000 (90.90%)
+
+Epoch [99]
+[Train set] Loss: 0.0096, Accuracy: 49724/50000 (99.45%)  Epoch time : 62.4865 
+   LR : 0.0086
+[Test set] Average loss: 0.0017, Accuracy: 9116/10000 (91.16%)
+
+Epoch [100]
+[Train set] Loss: 0.0073, Accuracy: 49826/50000 (99.65%)  Epoch time : 62.4873 
+   LR : 0.0081
+[Test set] Average loss: 0.0017, Accuracy: 9173/10000 (91.73%)
+
+Epoch [101]
+[Train set] Loss: 0.0088, Accuracy: 49807/50000 (99.61%)  Epoch time : 62.5531 
+   LR : 0.0076
+[Test set] Average loss: 0.0016, Accuracy: 9239/10000 (92.39%)
+
+Epoch [102]
+[Train set] Loss: 0.0047, Accuracy: 49876/50000 (99.75%)  Epoch time : 62.4929 
+   LR : 0.0071
+[Test set] Average loss: 0.0015, Accuracy: 9239/10000 (92.39%)
+
+Epoch [103]
+[Train set] Loss: 0.0147, Accuracy: 49899/50000 (99.80%)  Epoch time : 62.4880 
+   LR : 0.0065
+[Test set] Average loss: 0.0016, Accuracy: 9225/10000 (92.25%)
+
+Epoch [104]
+[Train set] Loss: 0.0026, Accuracy: 49956/50000 (99.91%)  Epoch time : 62.4728 
+   LR : 0.0060
+[Test set] Average loss: 0.0014, Accuracy: 9299/10000 (92.99%)
+
+Epoch [105]
+[Train set] Loss: 0.0050, Accuracy: 49974/50000 (99.95%)  Epoch time : 62.4926 
+   LR : 0.0054
+[Test set] Average loss: 0.0014, Accuracy: 9297/10000 (92.97%)
+
+Epoch [106]
+[Train set] Loss: 0.0178, Accuracy: 49955/50000 (99.91%)  Epoch time : 62.5012 
+   LR : 0.0048
+[Test set] Average loss: 0.0014, Accuracy: 9300/10000 (93.00%)
+
+Epoch [107]
+[Train set] Loss: 0.0049, Accuracy: 49977/50000 (99.95%)  Epoch time : 62.5043 
+   LR : 0.0043
+[Test set] Average loss: 0.0014, Accuracy: 9307/10000 (93.07%)
+
+Epoch [108]
+[Train set] Loss: 0.0019, Accuracy: 49982/50000 (99.96%)  Epoch time : 62.5173 
+   LR : 0.0037
+[Test set] Average loss: 0.0014, Accuracy: 9322/10000 (93.22%)
+
+Epoch [109]
+[Train set] Loss: 0.0035, Accuracy: 49987/50000 (99.97%)  Epoch time : 62.6026 
+   LR : 0.0032
+[Test set] Average loss: 0.0013, Accuracy: 9311/10000 (93.11%)
+
+Epoch [110]
+[Train set] Loss: 0.0022, Accuracy: 49979/50000 (99.96%)  Epoch time : 62.5523 
+   LR : 0.0027
+[Test set] Average loss: 0.0013, Accuracy: 9303/10000 (93.03%)
+
+Epoch [111]
+[Train set] Loss: 0.0033, Accuracy: 49985/50000 (99.97%)  Epoch time : 62.5048 
+   LR : 0.0022
+[Test set] Average loss: 0.0013, Accuracy: 9311/10000 (93.11%)
+
+Epoch [112]
+[Train set] Loss: 0.0019, Accuracy: 49993/50000 (99.99%)  Epoch time : 62.5089 
+   LR : 0.0018
+[Test set] Average loss: 0.0013, Accuracy: 9299/10000 (92.99%)
+
+Epoch [113]
+[Train set] Loss: 0.0044, Accuracy: 49994/50000 (99.99%)  Epoch time : 62.4979 
+   LR : 0.0014
+[Test set] Average loss: 0.0013, Accuracy: 9321/10000 (93.21%)
+
+Epoch [114]
+[Train set] Loss: 0.0019, Accuracy: 49994/50000 (99.99%)  Epoch time : 62.5210 
+   LR : 0.0010
+[Test set] Average loss: 0.0013, Accuracy: 9310/10000 (93.10%)
+
+Epoch [115]
+[Train set] Loss: 0.0038, Accuracy: 49996/50000 (99.99%)  Epoch time : 62.5316 
+   LR : 0.0007
+[Test set] Average loss: 0.0013, Accuracy: 9317/10000 (93.17%)
+
+Epoch [116]
+[Train set] Loss: 0.0017, Accuracy: 49997/50000 (99.99%)  Epoch time : 62.5289 
+   LR : 0.0005
+[Test set] Average loss: 0.0013, Accuracy: 9312/10000 (93.12%)
+
+Epoch [117]
+[Train set] Loss: 0.0024, Accuracy: 49996/50000 (99.99%)  Epoch time : 62.5937 
+   LR : 0.0003
+[Test set] Average loss: 0.0013, Accuracy: 9311/10000 (93.11%)
+
+Epoch [118]
+[Train set] Loss: 0.0016, Accuracy: 49996/50000 (99.99%)  Epoch time : 62.5681 
+   LR : 0.0001
+[Test set] Average loss: 0.0013, Accuracy: 9309/10000 (93.09%)
+
+Epoch [119]
+[Train set] Loss: 0.0021, Accuracy: 49996/50000 (99.99%)  Epoch time : 62.5365 
+   LR : 0.0000
+[Test set] Average loss: 0.0013, Accuracy: 9313/10000 (93.13%)
+
+Epoch [120]
+[Train set] Loss: 0.0020, Accuracy: 49995/50000 (99.99%)  Epoch time : 62.5759 
+   LR : 0.0000
+/opt/conda/lib/python3.7/site-packages/torch/storage.py:34: FutureWarning: pickle support for Storage will be removed in 1.5. Use `torch.save` instead
+  warnings.warn("pickle support for Storage will be removed in 1.5. Use `torch.save` instead", FutureWarning)
+[Test set] Average loss: 0.0013, Accuracy: 9321/10000 (93.21%)
+Time ellapsed in training is: 7958.789749622345
+save dir : ./Result_GCP/Original/GoogLeNet_ResNet_cos_v3/21_3_42
